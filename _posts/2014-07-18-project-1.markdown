@@ -7,8 +7,8 @@ date: 2019-03-19
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
-site: go
+project-date: 2016
+site: Go
 category: Web Publishing
 description: jquery/html/css
 
