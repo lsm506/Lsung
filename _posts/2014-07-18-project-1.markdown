@@ -8,7 +8,7 @@ img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
+site: go
 category: Web Publishing
 description: jquery/html/css
 
