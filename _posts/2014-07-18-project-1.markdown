@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Publishing
-description: 웹퍼블리싱 업무담당
+description: jquery/html/css
 
 ---
