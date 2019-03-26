@@ -2,7 +2,7 @@
 title: TeamUP
 subtitle: Web Publishing
 layout: default
-modal-id: 1
+modal-id: 2
 date: 2019-03-19
 img: dreams.png
 thumbnail: dreams-thumbnail.png
