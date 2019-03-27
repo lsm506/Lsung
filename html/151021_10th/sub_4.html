@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=Edge">
+<title>GRAND CABAL FESTIVAL</title>
+<meta charset="utf-8">
+<meta name="author" content="ESTsoft">
+<meta name="keywords" content="CABAL2, ESTsoft">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://static.estgames.co.kr/gnb/css/gnb_transitional.css">
+<link rel="stylesheet" href="http://image.cabal.co.kr/Event/151021_10th/css/10th.css">
+<link rel="icon" href="http://image.cabal.co.kr/favicon/favicon.ico" type="image/x-icon">
+<script src="http://image.cabal.co.kr/dev/js/jquery-1.11.2.min.js"></script>
+<script src="http://image.cabal.co.kr/Intro/140721_28th/js/jquery.easing.1.3.js"></script>
+<script src="./js/jquery.ba-hashchange.js"></script>
+<script src="./js/10th.js"></script>
+</head>
+<body> 
+<!-- gnb -->
+<div id="gnb" class=""><!--  =isDaumChanneling?"style='display:none'":""  -->
+	<div class="gnb_container">
+    	<h1><a href="http://estsoft.co.kr/"><span class="blind">ESTsoft</span></a></h1>
+        <div class="left_menu off">
+            <a href="http://advert.estsoft.com/?event=201307171933600" class="title">카발 온라인</a>
+            <a href="#n" class="btn_layer"><span class="blind">접기</span></a>
+            <div class="layer leftLayer">
+                <ul>
+                    <li><a href="http://advert.estsoft.com/?event=201307178142255" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_1_20121024.gif" alt="카발1"><span>카발 온라인</span></a></li>
+                    <li><a href="http://advert.estsoft.com/?event=201211132585062" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_2_obt.gif" alt="카발2"><span>카발2</span></a></li>
+                </ul>
+                <div class="layer_bottom">
+                    <a href="http://cabal.co.kr/Default.aspx?wbs=3.8" target="_blank" class="OpenWindow">더욱 강력해진 "각성" 업데이트</a>
+                </div>
+            </div>
+        </div>
+        <div class="right_menu">
+        	<ul>
+                <li class="fir">
+                    <a href="#" class="customer_close rightButton">고객센터</a>
+                    <div class="layer hidden rightLayer">
+                    	<ul>
+                    		
+                            <li><a href="http://cs.cabal.co.kr">계정도용신고</a></li>
+                            <li><a href="https://secure.cabal.co.kr/security">보안센터</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="https://user.cabal.co.kr/join"><strong>회원가입</strong></a></li>
+                <li class="last">
+                	<a href="https://user.cabal.co.kr/login" class="login"><span class="blind">로그인</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$('.btn_layer').on('click', function(){
+    //$('div.left_menu').toggleClass('off');
+    if($('div.left_menu').attr('class').indexOf('off') > -1){
+        $('div.left_menu').removeClass('off');
+    }else{
+        $('div.left_menu').addClass('off');
+    }
+});
+$('.customer_close').on('click', function(){
+    //$('.rightLayer').toggleClass('hidden');
+    if($('.rightLayer').attr('class').indexOf('hidden') > -1){
+        $('.rightLayer').removeClass('hidden');
+    }else{
+        $('.rightLayer').addClass('hidden');
+    }
+});
+</script>
+<!-- //gnb -->
+<div class="container sub">
+	<!--임시 gnb-->
+    <div class="event_gnb sgnb">
+        <span class="ebg"></span>
+        <div class="content">
+            <ul class="link">
+                <li class="home"><a href="http://www.cabal.co.kr/main"><span>홈페이지</span></a><span class="bar"></span></li>
+                <li class="event"><a href="http://www.cabal.co.kr/event?categoryNo=0"><span>이벤트</span></a></li>
+            </ul>
+            <div class="menu_wrap">
+                <div class="flash_area">
+                    <object width="201" height="201" data="./images/logo.swf" type="application/x-shockwave-flash">
+                        <param name="allowScriptAccess" value="always">
+                        <param name="wmode" value="transparent">
+                        <param name="quality" value="high">
+                        <!--[if lte IE 8]>
+                        <param name="movie" value="./images/logo.swf" />
+                        <![endif]-->
+                        <span class="bi"></span>
+                    </object>
+                </div>
+                <a href="/intro" class="btn_intro"><span class="blind">GRAND CABAL FESTIVAL</span></a>
+                <div class="menu">
+                    <span class="hover"><span class="align"></span><span class="hbg"></span></span>
+                    <ul>
+                        <li class="ev1"><a href="/sub_1"><span class="le"><span class="blind">EVENT 01. 카발이 쏜다!</span></span></a></li>
+                        <li class="ev2"><a href="/sub_2"><span class="le"><span class="blind">EVENT 02. 초특급 서버 오픈</span></span></a></li>
+                        <li class="ev3"><a href="/sub_3"><span class="le"><span class="blind">EVENT 03. GRAND FESTIVAL</span></span></a></li>
+                        <li class="ev4"><a href="/sub_4" class="on"><span class="le"><span class="blind">EVENT 04. 응답하라, 카발리안</span></span></a></li>
+                        <li class="ev5"><a href="/sub_5"><span class="le"><span class="blind">EVENT 05. CLUB B.I</span></span></a></li>
+                        <li class="ev6"><a href="/sub_6"><span class="le"><span class="blind">EVENT 06. 페스티벌 플래티넘</span></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./history.html" class="btn_history" target="_blank"><span class="blind">10년의 발자취</span></a>
+        </div>
+    </div>
+    <!--//임시 gnb-->
+    <div class="section sub_4">
+        <div class="wrap event4_1">
+            <h1 class="logo"><a href="http://www.cabal.co.kr/main"><span class="blind">CABAL</span></a></h1>
+            <div class="content">
+                <h2 class="sub_tit"><span class="blind">GRAND CABAL FESTIVAL 카발 10주년 기념, 네번째 이벤트 응답하라 카발리안</span></h2>
+                <div class="blind">
+                    <span>2015.10.21-2015.12.02/이벤트 당첨자 발표 : 매주 월요일(10월26일 제외)</span>
+                </div>
+                <div id="index_Center_bn">
+                    <div class="clsBannerScreen">
+
+                        <div class="bn">
+                            <ul>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.이것은 테스트를 위한 100글자입니다.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bn">
+                            <ul>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bn">
+                            <ul>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bn">
+                            <ul>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bn">
+                            <ul>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="m_name">
+                                        디자인2팀 홍현우 <span class="leve">(Lv. 100)</span>
+                                    </p>
+                                    <p class="m_text">
+                                        카발이 벌써 10주년이라니~   세월 진짜 빠르네요!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap event4_2">
+            <div class="content">
+                <dl class="blind">
+                    <dt>
+                        카발 온라인 10주년을 축하하는 축하메시지를 남겨주세요~(100자)
+                    </dt>
+                    <dd>
+                        10번째 생일을 맞이한 카발에게 축하의 메세지를 전하세요. 축하 메세지를 남기신 유저 중 매주 50명을 추첨하여 포스젬 100개를 드립니다.
+                    </dd>
+                </dl>
+                <div class="answer">
+                    <textarea maxlength="50"></textarea>
+                    <a href="#n">글쓰기</a>
+                    <table>
+                        <tr>
+                            <td class="answer_name">디자인2팀 홍현우 <span class="leve">(Lv. 100)</span></td>
+                            <td rowspan="2" class="answer_time">2시간 전</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_text">카발이 벌써 10주년이라니~   세월 진짜 빠르네요!</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_name">디자인2팀 홍현우 <span class="leve">(Lv. 100)</span></td>
+                            <td rowspan="2" class="answer_time">2시간 전</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_text">카발이 벌써 10주년이라니~   세월 진짜 빠르네요!</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_name">디자인2팀 홍현우 <span class="leve">(Lv. 100)</span></td>
+                            <td rowspan="2" class="answer_time">2시간 전</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_text">카발이 벌써 10주년이라니~   세월 진짜 빠르네요!카발이 벌써 10주년이라니~   세월 진짜 빠르네요!카발이 벌써 10주년이라니~   세월 진짜 빠르네요!카발이 벌써 10주년이라니~   세월 진짜 빠르네요!카발이 벌써 10주년이라니~   세월 진짜 빠르네요!카발이 벌써 10주년이라니~   세월 진짜 빠르네요!</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_name">디자인2팀 홍현우 <span class="leve">(Lv. 100)</span></td>
+                            <td rowspan="2" class="answer_time">2시간 전</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_text">카발이 벌써 10주년이라니~   세월 진짜 빠르네요!</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_name">디자인2팀 홍현우 <span class="leve">(Lv. 100)</span></td>
+                            <td rowspan="2" class="answer_time rast">2시간 전</td>
+                        </tr>
+                        <tr>
+                            <td class="answer_text rast">카발이 벌써 10주년이라니~   세월 진짜 빠르네요!</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="page">
+                    <span><a href="#n">이전</a></span>
+                    <ul>
+                        <li>
+                            <a href="#n">1</a>
+                        </li>
+                        <li>
+                            <a href="#n">2</a>
+                        </li>
+                        <li>
+                            <a href="#n">3</a>
+                        </li>
+                        <li>
+                            <a href="#n">4</a>
+                        </li>
+                        <li>
+                            <a href="#n">5</a>
+                        </li>
+                        <li>
+                            <a href="#n">6</a>
+                        </li>
+                        <li>
+                            <a href="#n">7</a>
+                        </li>
+                        <li>
+                            <a href="#n">8</a>
+                        </li>
+                        <li>
+                            <a class="on">9</a>
+                        </li>
+                        <li>
+                            <a href="#n">10</a>
+                        </li>
+                    </ul>
+                    <span><a href="#n">다음</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="wrap event4_3">
+            <div class="content">
+                <div class="blind">
+                    <h3>생일 축하 메시지를 남기면 포스젬을 드려요!</h3>
+                    <strong>월요일 공지사항을 통해 당첨자를 확인하세요.</strong>
+                    <dl>
+                        <dt>
+                            HAPPY BIRTHDAY MESSAGE
+                        </dt>
+                        <dd>
+                            <strong> 포스젬으로 이용 가능한 서비스</strong>
+                            <ol>
+                                <li>
+                                    1 던전 진입
+                                </li>
+                                <li>
+                                    2 리스턴스톤 무제한
+                                </li>
+                                <li>
+                                    3 파티원을 소환
+                                </li>
+                                <li>
+                                    4 파티원에게 워프
+                                </li>
+                                <li>
+                                    5 지정 좌표로 워프
+                                </li>
+                                <li>
+                                    6 부활
+                                </li>
+                                <li>
+                                    7 파티원을 부활
+                                </li>
+                                <li>
+                                    8 AXP 양도
+                                </li>
+                                <li>
+                                    9 데미지 양도
+                                </li>
+                            </ol>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="wrap event4_4">
+            <div class="content">
+                <div class="blind">
+                    <strong>이벤트 주의사항</strong>
+                    <ul>
+                        <li>
+                            이벤트 참여 기간은 10월 21일부터 12월 2일 자정까지입니다.
+                        </li>
+                        <li>
+                            응모에 당첨되면 해당 계정 우편함으로 선물이 지급됩니다.
+                        </li>
+                        <li>
+                            비정상적인 방법으로 이벤트 참여 시, 이벤트 응모 취소 및 운영 정책에 따라 제재를 받을 수 있습니다.
+                        </li>
+                        <li>
+                            이벤트 경품 당첨 발표는 차주 월요일에 일괄적으로 발표되며, 공지사항을 통해 확인하실 수 있습니다.
+                        </li>
+                        <li>
+                            비속어 사용, 비방, 기타 불쾌함을 줄 수 있는 글은 삭제되며 추첨에서 제외됩니다.
+                        </li>
+                        <li>
+                            이벤트 중복 당첨이 가능합니다.
+                        <li>
+                    </ul>
+                    <address>
+                        Copyright ⓒ ESTsoft Corp. All Rights Reserved.
+                    </address>
+                </div>
+                <a href="http://www.estsoft.co.kr/" class="estsoft" target="_blank">estsoft</a>
+            </div>
+        </div>
+        <a href="" class="btn_top"><span class="blind">맨위로</span></a>
+        <script>
+        $(function(){
+            $('.answer textarea').on('focus', function() {
+                $('.answer textarea').addClass('off');
+            }).on("focusout",function(){
+                var tx = $(this).val();
+                if(tx == ''){
+                    $(this).removeClass('off');
+                }
+            }).keyup(function(){
+                var tx = $(this).val();
+                if(tx == ''){
+                    $('.answer textarea').removeClass('off');
+                } else{
+                    $('.answer textarea').addClass('off');
+                }
+            });
+            $("#index_Center_bn").bind("mouseenter",function(){
+                clearInterval(int4);
+            }).bind("mouseleave",function(){
+                sub4Move();
+                
+            })
+        })
+        </script>
+    </div>
+</div>
+</body>
+</html>

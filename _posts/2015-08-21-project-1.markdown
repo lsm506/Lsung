@@ -2,7 +2,7 @@
 title: 플레티넘 이벤트페이지
 subtitle: cabal
 layout: default
-modal-id: 15
+modal-id: 17
 date: 2015-08-21
 img: 150821.jpg
 thumbnail: 150821.png

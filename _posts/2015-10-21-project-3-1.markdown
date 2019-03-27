@@ -1,0 +1,15 @@
+---
+title: 카발 10주년 이벤트페이지
+subtitle: cabal
+layout: default
+modal-id: 15
+date: 2015-10-21
+img: 151021_1.jpg
+thumbnail: 151021.png
+alt: image-alt
+project-date: 2015-10-21
+site: <a href="https://tmup.com/" target="_blank">Go</a>
+category: GAME
+description: jquery/html/css
+
+---

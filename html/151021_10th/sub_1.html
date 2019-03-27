@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=Edge">
+<title>GRAND CABAL FESTIVAL</title>
+<meta charset="utf-8">
+<meta name="author" content="ESTsoft">
+<meta name="keywords" content="CABAL2, ESTsoft">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://static.estgames.co.kr/gnb/css/gnb_transitional.css">
+<link rel="stylesheet" href="http://image.cabal.co.kr/Event/151021_10th/css/10th.css">
+<link rel="icon" href="http://image.cabal.co.kr/favicon/favicon.ico" type="image/x-icon">
+<script src="http://image.cabal.co.kr/dev/js/jquery-1.11.2.min.js"></script>
+<script src="http://image.cabal.co.kr/Intro/140721_28th/js/jquery.easing.1.3.js"></script>
+<script src="./js/jquery.ba-hashchange.js"></script>
+<script src="./js/10th.js"></script>
+</head>
+<body> 
+<!-- gnb -->
+<div id="gnb" class=""><!--  =isDaumChanneling?"style='display:none'":""  -->
+	<div class="gnb_container">
+    	<h1><a href="http://estsoft.co.kr/"><span class="blind">ESTsoft</span></a></h1>
+        <div class="left_menu off">
+            <a href="http://advert.estsoft.com/?event=201307171933600" class="title">카발 온라인</a>
+            <a href="#n" class="btn_layer"><span class="blind">접기</span></a>
+            <div class="layer leftLayer">
+                <ul>
+                    <li><a href="http://advert.estsoft.com/?event=201307178142255" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_1_20121024.gif" alt="카발1"><span>카발 온라인</span></a></li>
+                    <li><a href="http://advert.estsoft.com/?event=201211132585062" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_2_obt.gif" alt="카발2"><span>카발2</span></a></li>
+                </ul>
+                <div class="layer_bottom">
+                    <a href="http://cabal.co.kr/Default.aspx?wbs=3.8" target="_blank" class="OpenWindow">더욱 강력해진 "각성" 업데이트</a>
+                </div>
+            </div>
+        </div>
+        <div class="right_menu">
+        	<ul>
+                <li class="fir">
+                    <a href="#" class="customer_close rightButton">고객센터</a>
+                    <div class="layer hidden rightLayer">
+                    	<ul>
+                            <li><a href="http://cs.cabal.co.kr">계정도용신고</a></li>
+                            <li><a href="https://secure.cabal.co.kr/security">보안센터</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="https://user.cabal.co.kr/join"><strong>회원가입</strong></a></li>
+                <li class="last">
+                	<a href="https://user.cabal.co.kr/login" class="login"><span class="blind">로그인</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$('.btn_layer').on('click', function(){
+    //$('div.left_menu').toggleClass('off');
+    if($('div.left_menu').attr('class').indexOf('off') > -1){
+        $('div.left_menu').removeClass('off');
+    }else{
+        $('div.left_menu').addClass('off');
+    }
+});
+$('.customer_close').on('click', function(){
+    //$('.rightLayer').toggleClass('hidden');
+    if($('.rightLayer').attr('class').indexOf('hidden') > -1){
+        $('.rightLayer').removeClass('hidden');
+    }else{
+        $('.rightLayer').addClass('hidden');
+    }
+});
+</script>
+<!-- //gnb -->
+<div class="container sub">
+	<!--임시 gnb-->
+    <div class="event_gnb sgnb">
+        <span class="ebg"></span>
+        <div class="content">
+            <ul class="link">
+                <li class="home"><a href="http://www.cabal.co.kr/main"><span>홈페이지</span></a><span class="bar"></span></li>
+                <li class="event"><a href="http://www.cabal.co.kr/event?categoryNo=0"><span>이벤트</span></a></li>
+            </ul>
+            <div class="menu_wrap">
+                <div class="flash_area">
+                    <object width="201" height="201" data="./images/logo.swf" type="application/x-shockwave-flash">
+                        <param name="allowScriptAccess" value="always">
+                        <param name="wmode" value="transparent">
+                        <param name="quality" value="high">
+                        <!--[if lte IE 8]>
+                        <param name="movie" value="./images/logo.swf" />
+                        <![endif]-->
+                        <span class="bi"></span>
+                    </object>
+                </div>
+                <a href="/intro" class="btn_intro"><span class="blind">GRAND CABAL FESTIVAL</span></a>
+                <div class="menu">
+                    <span class="hover"><span class="align"></span><span class="hbg"></span></span>
+                    <ul>
+                        <li class="ev1"><a href="/sub_1" class="on"><span class="le"><span class="blind">EVENT 01. 카발이 쏜다!</span></span></a></li>
+                        <li class="ev2"><a href="/sub_2"><span class="le"><span class="blind">EVENT 02. 초특급 서버 오픈</span></span></a></li>
+                        <li class="ev3"><a href="/sub_3"><span class="le"><span class="blind">EVENT 03. GRAND FESTIVAL</span></span></a></li>
+                        <li class="ev4"><a href="/sub_4"><span class="le"><span class="blind">EVENT 04. 응답하라, 카발리안</span></span></a></li>
+                        <li class="ev5"><a href="/sub_5"><span class="le"><span class="blind">EVENT 05. CLUB B.I</span></span></a></li>
+                        <li class="ev6"><a href="/sub_6"><span class="le"><span class="blind">EVENT 06. 페스티벌 플래티넘</span></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./history.html" class="btn_history" target="_blank"><span class="blind">10년의 발자취</span></a>
+        </div>
+    </div>
+    <!--//임시 gnb-->
+    <div class="section sub_1">    	
+    	<div class="wrap event_top">
+    	    <h1 class="logo"><a href="http://www.cabal.co.kr/main"><span class="blind">CABAL</span></a></h1>
+    		<div class="content">
+    	    	<span class="absol bg"></span>
+    	        <p class="absol sub_tit"></p>
+    	        <div class="blind">
+    	            <h3>카발이 쏜다!</h3>
+    	    		<p>2015.10.21-2015.12.02</p>
+    	    		<p>카발 온라인이 10살 맞이 화끈한 생일턱을 쏩니다!</p>
+    	    	</div>
+    	    </div>
+    	</div>
+    	<div class="wrap event_1-1">
+    		<div class="content">
+    	    	<div class="blind">
+    	    		<h4>01. 던전의 제왕은 누구인가?</h4>
+    	    		<p>경품이 탐나는가? 던전의 제왕에게 카발이 쏜다!</p>
+    	    		<h5>이벤트 참여방법</h5>
+    	    		<p>던전을 돌며 10주년 포인트를 쌓으면 경품에 응모할 수 있어요. 더 많이 응모할수록 당첨 확률도 커집니다!</p>
+    	    		<ol>
+    	    			<li>STEP 01. 게임 접속</li>
+    	    			<li>STEP 02. 던전 클리어</li>
+    	    			<li>STEP 03. 10주년 포인트 획득</li>
+    	    			<li>STEP 04. 획득 포인트로 경품 응모</li>
+    	    		</ol>
+    	    	</div>
+    	        <a href="#n" class="btn_caution btn_pop"><img src="http://image.cabal.co.kr/Event/151021_10th/images/sub_1/btn_caution-1.png" alt="이벤트 주의사항" /></a>
+    	    </div>
+    	</div>
+    	<div class="wrap event_1-2">
+    		<div class="content">
+    	    	<h5 class="blind">10주년 포인트 쌓기</h5>
+    	        <p class="blind"> 던전별로 쌓이는 포인트가 달라요~ 높은 난이도일수록 더 높은 포인트를 얻을 수 있답니다. 단, 던전을 완전히 클리어할 때에만 포인트가 쌓입니다!</p>
+    	        <ul>
+    	        	<li>
+    	            	<span class="blind">아직 던전 초보자세요?</span>
+    	                <a href="#n" class="btn_point"><img src="http://image.cabal.co.kr/Event/151021_10th/images/sub_1/btn_point.png" alt="포인트 확인하기" /></a>
+    	            </li>
+    	            <li>
+    	            	<span class="blind">왕년에 던전 좀 돌아 보셨다면?</span>
+    	                <a href="#n" class="btn_point"><img src="http://image.cabal.co.kr/Event/151021_10th/images/sub_1/btn_point.png" alt="포인트 확인하기" /></a>
+    	            </li>
+    	            <li>
+    	            	<span class="blind">던전 따위는 껌! 던전 초고수!</span>
+    	                <a href="#n" class="btn_point btn_point-3"><img src="http://image.cabal.co.kr/Event/151021_10th/images/sub_1/btn_point.png" alt="포인트 확인하기" /></a>
+    	            </li>
+    	        </ul>
+    	    </div>
+    	</div>
+    	<div class="wrap event_1-3 event_1-3-3">
+    		<div class="content">
+    	    	<h5 class="blind">10주년 포인트 쓰기</h5>
+    	        <p class="blind">포인트가 많이 모였다면 이제는 쓸 차례! 원하는 상품을 포인트로 응모해보세요~ 회차가 끝날때마다 누적 포인트가 모두 소진되니 주의해주세요!</p>
+    	        <div class="point_area">
+    	        	<div class="blind">
+    	        		<h5>내 10주년 포인트</h5>
+    	        		<dl>
+    	        			<dt>이벤트 응모 기간</dt>
+    	        		    <dd>2015.11.4(수) ~ 2015.11.17(화)</dd>
+    	        		    <dt>담청자 발표</dt>
+    	        		    <dd>2015.11.25(수)</dd>
+    	        		</dl>
+    	        	</div>
+    	            <!--로그인 시 login 클래스 추가-->
+    	            <div class="point login">
+    	            	<p><span class="l_txt">로그인을 하셔야<br>포인트 확인이 가능합니다</span></p>
+    	                <p>1,125</p>
+    	                <span class="shadow"></span>
+    	                <span class="bg"></span>
+    	            </div>
+                    <p class="btn_my-point"><a href="#n">포인트 현황 보기</a></p><!--1022 신규추가-->
+    	        </div>
+    	        <div class="gift_area">
+    	        	<ul class="tab_menu">
+    	        		<li class="t1"><a href="#n"><span class="blind">1주차</span></a></li>
+    	                <li class="t2"><a href="#n"><span class="blind">2주차</span></a></li>
+    	                <li class="t3 on"><a href="#n"><span class="blind">3주차</span></a></li>
+    	        	</ul>
+    	            <div class="tab tab_1">
+    	            	<ul>
+    	            		<li>
+    	                    	<span class="blind">인텔I7 조립PC 1명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">필립스 9000면도기 3명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">샌디스크 x110 Series SSD 256GB 6명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">주유 상품권 5만원권</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li class="l5">
+    	                    	<span class="blind">BHC 치킨 기프티콘 30명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">컵라면 1박스 50명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">온라인 문화상품권 5천원 100명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	            	</ul>
+    	            </div>
+                    <div class="tab tab_2 start">
+                    	<ul>
+    	            		<li>
+    	                    	<span class="blind">LG LED 모니터 1명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">비츠바이닥터드레 와이어리스 헤드폰 2명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">백화점 상품권 10만원권 2매(20만원) 5명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">샌디스크 메모리카드 32GB 40명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li class="l5">
+    	                    	<span class="blind">온라인 문화상품권 1만원권 52명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">버거킹 버거세트 50명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">샌디스크 USB 16GB570명</span>
+    	                        <p class="btn_f"><span class="blind">응모 종료</span></p>
+    	                    </li>
+    	            	</ul>
+                    </div>
+    	            <div class="tab tab_3 start on">
+                        <ul>
+    	            		<li>
+    	                    	<span class="blind">모두투어 여행상품권 100만원 1명</span>
+    	                        <a href="#n" class="btn_100"><span class="blind">100포인트로 응모하기</span></a>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">Geforce GTX 750 그래픽카드 2명</span>
+    	                        <a href="#n" class="btn_20"><span class="blind">20포인트로 응모하기</span></a>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">CGV 골드 클래스 2인 관람권 7명</span>
+    	                        <a href="#n" class="btn_5"><span class="blind">5포인트로 응모하기</span></a>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">미스터피자 기프티콘 40명</span>
+    	                        <a href="#n" class="btn_3"><span class="blind">3포인트로 응모하기</span></a>
+    	                    </li>
+    	                    <li class="l5">
+    	                    	<span class="blind">정관장 활기력 세트 30명</span>
+    	                        <a href="#n" class="btn_2"><span class="blind">2포인트로 응모하기</span></a>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">샤오미 보조 배터리 50명</span>
+    	                        <a href="#n" class="btn_2"><span class="blind">2포인트로 응모하기</span></a>
+    	                    </li>
+    	                    <li>
+    	                    	<span class="blind">온라인 문화상품권 5천원 70명</span>
+    	                        <a href="#n" class="btn_1"><span class="blind">1포인트로 응모하기</span></a>
+    	                    </li>
+    	            	</ul>
+                    </div>
+    	            <ul class="blind">
+    	            	<li>경품은 2주마다 교체됩니다.</li>
+    	            	<li>회차 종료 시, 누적되었던 포인트는 자동으로 소진됩니다.</li>
+    	            </ul>
+    	        </div>
+    	    </div>
+    	</div>
+    	<div class="wrap event_2">
+    		<div class="content">
+    	    	<div class="blind">
+    	    		<h4>02. 카발 온라인 최고에 도전하라</h4>
+    	    		<p>지존의, 지존에 의함, 지존을 위한 스페셜 박스</p>
+    	    		<h5>특별 선물 패키지</h5>
+    	    		<p>2015년 12월 2일 자정까지 200레벨을 달성한 유저 모두에게 카발 온라인 스페셜 기프트 박스를 드립니다! 최고에 도전해보겠는가?</p>
+    	    		<dl>
+    	    			<dt>스페셜 박스 구성</dt>
+    	    		    <dd>VIP 감사 상패</dd>
+    	    		    <dd>10만원 캐시 쿠폰</dd>
+    	    		    <dd>아트북</dd>
+    	    		    <dd>무릎 담요</dd>
+    	    		</dl>
+    	    		<ul>
+    	    			<li>본 상품은 이벤트 종료 이후 약 한 달의 제작 기간을 거친 후 발송됩니다.</li>
+    	    			<li>스페셜 박스를 받는 유저 명단은 12월 7일에 공지사항을 통해 확인하실 수 있습니다.</li>
+    	    		</ul>
+    	    	</div>
+    	        <a href="#n" class="btn_caution btn_pop"><img src="http://image.cabal.co.kr/Event/151021_10th/images/sub_1/btn_caution-2.png" alt="이벤트 주의사항" /></a>
+    	    </div>
+    	</div>
+    	<div class="wrap caution">
+    		<div class="content">
+    	    	<div class="blind">
+    	    		<h5>이벤트 공통 주의사항</h5>
+    	    		<ul>
+    	    			<li>이벤트 참여 기간은 10월 21일 이벤트 오픈 시간부터 12월 2일 자정까지입니다.</li>
+    	    			<li>경품 수령자에게는 카발 온라인이 별도로 메일을 전달 드립니다. 메일 주소가 변경되었다면 수정을 해주세요.</li>
+    	    			<li>메일에 안내된 내용에 따라 개인정보 활용동의 시 경품이 전달되며, 동의하지 않을 경우 경품 수령이 불가능합니다.</li>
+    	    			<li>고객 정보 불일치로 발생한 경품 발송의 문제는 본인의 책임으로, 이스트소프트는 피해를 보상하지 않습니다.</li>
+    	    			<li>이벤트 경품 발송을 위해 제3업체에 개인정보가 위탁됩니다.</li>
+    	    			<li>비정상적인 방법으로 이벤트 참여 시, 이벤트 응모 취소 및 운영 정책에 따라 제재를 받을 수 있습니다.</li>
+    	    		</ul>
+    	    	</div>
+    	        <p><span class="blind">Copyright ⓒ</span> <a href="http://www.estsoft.co.kr/" target="_blank"><span class="blind">ESTsoft Corp.</span></a> <span class="blind">All Rights Reserved.</span></p>
+    	    </div>
+    	</div>
+    	<span class="bg_hide" style="display:none"></span>
+    	<a href="#n" class="pop pop_caution pop_caution-1">
+    		<div class="blind">
+    	    	<h5>이벤트 01. 주의사항</h5>
+    	        <ul>
+    	        	<li>이벤트를 통해 획득한 10주년 포인트는 회차별로 응모 종료일까지 가능하며, 해당 시간 이후로는 소진할 수 없습니다.</li>
+    	        	<li>10주년 포인트는 응모 즉시 차감되며, 복구되지 않습니다.</li>
+    	        	<li>여러 번 응모할수록 당첨 확률이 높아집니다.</li>
+    	        	<li>이벤트 경품 당첨 발표는 회차별로 발표되며, 공지사항을 통해 확인하실 수 있습니다.</li>
+    	        	<li>10주년 포인트로 지급되는 경품 이미지는 예시 이미지이며, 사정에 따라 동급의 유사 경품으로 변경될 수 있습니다.</li>
+    	        	<li>이벤트 경품은 개인정보 활용에 동의한 분에 한하여 순차적으로 발송됩니다.</li>
+    	        	<li>나의 10주년 포인트는 획득 후 2시간의 누적 대기 시간이 소요됩니다.</li>
+                    <li>회차 종료일 22시까지 누적된 10주년 포인트는 회차 종료 시 모두 자동 소진되며, 22시 이후로 누적된 포인트는 다음 회차에서 사용이 가능합니다.</li>
+    	        </ul>
+    	    </div>
+    	</a>
+    	<a href="#n" class="pop pop_caution pop_caution-2">
+    		<div class="blind">
+    	    	<h5>이벤트 02. 주의사항</h5>
+    	        <ul>
+    	        	<li>이벤트 마지막일(12월 2일)까지 200레벨을 달성한 유저에 한하여 경품이 제공됩니다.</li>
+    	        	<li>스페셜 박스를 받는 유저 명단은 12월 7일에 공지사항을 통해 확인하실 수 있습니다.</li>
+    	        	<li>본 상품은 이벤트 종료 후 약 한 달간의 제작 기간을 거친 후 일괄적으로 발송됩니다.</li>
+                    <li>10만원 캐시 쿠폰은 카발 상품권(골드) 100% 할인 쿠폰 형태로 지급됩니다.</li>
+    	        </ul>
+    	    </div>
+    	</a>
+        <a href="#n" class="pop pop_point pop_point-1">
+            <table class="blind">
+                <thead>
+                    <tr>
+                        <th scope="col">던전명</th>
+                        <th scope="col">획득 포인트</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>레이크 인 더스크</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>루이나 스테이션</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>패닉 케이브 (쉬움)</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>스티머 크레이지 (쉬움)</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>카타쿰 프로스트 (쉬움)</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>카오스 아레나 Lv.1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>라바 헬파이어 (쉬움)</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>망자의 탑 B1F</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>패닉 케이브 (보통)</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>스티머 크레이지 (보통)</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>카타쿰 프로스트 (보통)</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>카오스 아레나 Lv.2</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>라바 헬파이어 (보통)</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>해저더스 밸리 (쉬움)</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>볼캐닉 시타델</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>포가튼 템플 B1F</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>패닉 케이브 (어려움)</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>스티머 크레이지 (어려움)</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>카타쿰 프로스트 (어려움)</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>카오스 아레나 Lv.3</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>라바 헬파이어 (어려움)</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>해저더스 밸리 (보통)</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <a href="#n" class="pop pop_point pop_point-2">
+            <table class="blind">
+                <thead>
+                    <tr>
+                        <th scope="col">던전명</th>
+                        <th scope="col">획득 포인트</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>망자의 탑 B2F</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>일루전 캐슬 언더월드</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>카오스 아레나 Lv.4</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>패닉 케이브 (프리미엄)</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>스티머 크레이지 (프리미엄)</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>카타쿰 프로스트 (프리미엄)</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>라바 헬파이어 (프리미엄)</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>해저더스 밸리 (어려움)</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>카오스 아레나 Lv.5</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>라바 헬파이어 (각성모드)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>패닉 케이브 (각성모드)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>스티머 크레이지 (각성모드)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>카타쿰 프로스트 (각성모드)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>해저더스 밸리 (각성모드)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>포비든 아일랜드</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>알타 오브 시에나 B1F</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>카오스 아레나 Lv.6</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <a href="#n" class="pop pop_point pop_point-3">
+            <table class="blind">
+                <thead>
+                    <tr>
+                        <th scope="col">던전명</th>
+                        <th scope="col">획득 포인트</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>알타 오브 시에나 B2F</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>일루전 캐슬 레디언트홀</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>포비든 아일랜드 (각성모드)</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>이터널 카오스 아레나</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>포가튼 템플 B2F</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>마퀴나스 아웃포스트</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>포가튼 템플 B2F</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>망자의 탑 B3F</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>어밴던드 시티</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <div class="pop_my-point"><!--1022 신규추가-->
+        	<a href="#n" class="btn_close"><img src="http://image.cabal.co.kr/Event/151021_10th/images/sub_1/btn_close.png" alt="" /></a>
+            <ul>
+            	<li class="get">
+                	<dl>
+                    	<dt class="blind">획득 포인트</dt>
+                        <dd>1,256<span class="blind">POINT</span></dd>
+                    </dl>
+                    <div class="t_scroll t_scroll-1">
+                    	<div>
+                    		<table>
+                    			<thead class="blind">
+                    		    	<tr>
+                    		        	<th scope="col">던전명</th>
+                    		            <th scope="col">클리어 횟수</th>
+                    		            <th scope="col">획득 포인트</th>
+                    		        </tr>
+                    		    </thead>
+                    		    <tbody>
+                    		    	<tr>
+                    		        	<th scope="row"><span>알타 오브 시에나 B2F	알타 오브 시에나 B2</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>일루전 캐슬 레디언트홀</span></th>
+                    		            <td>100</td>
+                    		            <td class="pi">10</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>포비든 아일랜드 (각성모드)	</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>이터널 카오스 아레나</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>포가튼 템플 B2F</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>포가튼 템플 B2F</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">20</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>일루전 캐슬 레디언트홀</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>포비든 아일랜드 (각성모드)</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>알타 오브 시에나 B2F</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>알타 오브 시에나 B2F</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>알타 오브 시에나 B2F</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>포비든 아일랜드 (각성모드)</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                                    <tr>
+                    		        	<th scope="row"><span>이터널 카오스 아레나</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		    </tbody>
+                    		</table>
+                    	</div>
+                    </div>
+                </li>
+                <li class="lose">
+                	<dl>
+                    	<dt class="blind">소진 포인트</dt>
+                        <dd>0<span class="blind">POINT</span></dd>
+                    </dl>
+                    <div class="t_scroll t_scroll-2">
+                    	<div>
+                    		<table>
+                    			<thead class="blind">
+                    		    	<tr>
+                    		        	<th scope="col">상품</th>
+                    		            <th scope="col">응모 횟수</th>
+                    		            <th scope="col">소진 포인트</th>
+                    		        </tr>
+                    		    </thead>
+                    		    <tbody>
+                    		    	<tr>
+                    		        	<th scope="row"><span>백화점 상품권 10만원권 2매 백화점 상품권 10만원권 2매</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>샌디스크 x110 Series SSD</span></th>
+                    		            <td>100</td>
+                    		            <td class="pi">10</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>모두투어 여행상품권 100만원</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>인텔i7 조립PC</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>미스터피자 기프티콘</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>컵라면 1박스 </span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">20</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>온라인 문화상품권 5천원권</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>LG LED 모니터</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>LG LED 모니터</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>LG LED 모니터</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>온라인 문화상품권 5천원권</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>미스터피자 기프티콘</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                                    <tr>
+                    		        	<th scope="row"><span>미스터피자 기프티콘</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                                    <tr>
+                    		        	<th scope="row"><span>온라인 문화상품권 5천원권</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		        <tr>
+                    		        	<th scope="row"><span>미스터피자 기프티콘</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                                    <tr>
+                    		        	<th scope="row"><span>미스터피자 기프티콘</span></th>
+                    		            <td>7</td>
+                    		            <td class="pi">7</td>
+                    		        </tr>
+                    		    </tbody>
+                    		</table>
+                    	</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="" class="btn_top"><span class="blind">맨위로</span></a>
+        <script src="http://image.cabal.co.kr/Event/151021_10th/js/iscroll.js"></script>
+		<script>
+        $(function(){
+            //내 포인트영역 임시 확인용
+            $(".sub_1 .point_area .point p").hide();
+            $(".sub_1 .point_area .point p").each(function(i){
+                if(!($(".sub_1 .point_area .point").hasClass("login"))){
+                    $(".sub_1 .point_area .point p").eq(0).show();
+                }else{
+                    var pTxt = $(".sub_1 .point_area .point p").eq(1).text();
+                    $(".sub_1 .point_area .point p").eq(1).show();
+                    $(".sub_1 .point_area .point .shadow").show().text(pTxt);
+                }
+            });
+            //팝업
+			//1022 신규추가 시작
+			$(".sub_1 .btn_my-point a").click(function(e){
+				e.preventDefault();
+				$(".sub_1 .pop").hide();
+				$(".sub_1 .bg_hide").show();
+				$(".sub_1 .pop_my-point").show().focus();
+				function pScroll(){
+					var popScrollA = new IScroll('.t_scroll-1', {
+						scrollbars: true,
+						mouseWheel: true,
+						interactiveScrollbars: true,
+						shrinkScrollbars: 'scale'
+					});
+					var popScrollB = new IScroll('.t_scroll-2', {
+						scrollbars: true,
+						mouseWheel: true,
+						interactiveScrollbars: true,
+						shrinkScrollbars: 'scale'
+					});
+				}
+				pScroll();
+			})
+			//1022 신규추가 끝
+            $(".sub_1 .btn_caution").click(function(e){
+                e.preventDefault();
+                var i = $(this).index(".sub_1 .btn_caution");
+                $(".sub_1 .pop").hide();
+                $(".sub_1 .bg_hide").show();
+                $(".sub_1 .pop_caution").eq(i).show().focus();
+            });
+            $(".sub_1 .btn_point").click(function(e){
+                e.preventDefault();
+                var i = $(this).index(".sub_1 .btn_point");
+                $(".sub_1 .pop").hide();
+                $(".sub_1 .bg_hide").show();
+                $(".sub_1 .pop_point").eq(i).show().focus();
+            });
+            $(".sub_1 .pop, .sub_1 .bg_hide, .sub_1 .pop_my-point .btn_close").click(function(e){
+                e.preventDefault();
+                $(".sub_1 .pop, .sub_1 .bg_hide, .sub_1 .pop_my-point").hide();
+            });
+            //포인트 탭
+            $(".sub_1 .gift_area .tab_menu li").each(function(i){
+                $(this).find(">a").click(function(e){
+                    e.preventDefault();
+                    $(".sub_1 .tab_menu li").removeClass("on");
+                    $(this).parents("li").addClass("on");
+                    $(".sub_1 .gift_area .tab").hide().removeClass("on");
+                    $(".sub_1 .gift_area .tab").eq(i).show().addClass("on");
+					//1026 추가
+					/*if($(".sub_1 .gift_area .tab").eq(1).hasClass("on")){
+						$(".sub_1 .event_1-3").removeClass("event_1-3-3");
+						$(".sub_1 .event_1-3").addClass("event_1-3-2");
+					}else if($(".sub_1 .gift_area .tab").eq(2).hasClass("on")){
+						$(".sub_1 .event_1-3").removeClass("event_1-3-2");
+						$(".sub_1 .event_1-3").addClass("event_1-3-3");
+					}else{
+						$(".sub_1 .event_1-3").removeClass("event_1-3-2 event_1-3-3")
+					}*/
+                });
+            });
+			
+        });
+        </script>
+    </div>
+</div>
+</body>
+</html>

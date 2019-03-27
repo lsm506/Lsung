@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=Edge">
+<title>GRAND CABAL FESTIVAL</title>
+<meta charset="utf-8">
+<meta name="author" content="ESTsoft">
+<meta name="keywords" content="CABAL2, ESTsoft">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://static.estgames.co.kr/gnb/css/gnb_transitional.css">
+<link rel="stylesheet" href="http://image.cabal.co.kr/Event/151021_10th/css/10th.css">
+<link rel="icon" href="http://image.cabal.co.kr/favicon/favicon.ico" type="image/x-icon">
+<script src="http://image.cabal.co.kr/dev/js/jquery-1.11.2.min.js"></script>
+<script src="http://image.cabal.co.kr/Intro/140721_28th/js/jquery.easing.1.3.js"></script>
+<script src="./js/jquery.ba-hashchange.js"></script>
+<script src="./js/10th.js"></script>
+</head>
+<body> 
+<!-- gnb -->
+<div id="gnb" class=""><!--  =isDaumChanneling?"style='display:none'":""  -->
+	<div class="gnb_container">
+    	<h1><a href="http://estsoft.co.kr/"><span class="blind">ESTsoft</span></a></h1>
+        <div class="left_menu off">
+            <a href="http://advert.estsoft.com/?event=201307171933600" class="title">카발 온라인</a>
+            <a href="#n" class="btn_layer"><span class="blind">접기</span></a>
+            <div class="layer leftLayer">
+                <ul>
+                    <li><a href="http://advert.estsoft.com/?event=201307178142255" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_1_20121024.gif" alt="카발1"><span>카발 온라인</span></a></li>
+                    <li><a href="http://advert.estsoft.com/?event=201211132585062" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_2_obt.gif" alt="카발2"><span>카발2</span></a></li>
+                </ul>
+                <div class="layer_bottom">
+                    <a href="http://cabal.co.kr/Default.aspx?wbs=3.8" target="_blank" class="OpenWindow">더욱 강력해진 "각성" 업데이트</a>
+                </div>
+            </div>
+        </div>
+        <div class="right_menu">
+        	<ul>
+                <li class="fir">
+                    <a href="#" class="customer_close rightButton">고객센터</a>
+                    <div class="layer hidden rightLayer">
+                    	<ul>
+                    		
+                            <li><a href="http://cs.cabal.co.kr">계정도용신고</a></li>
+                            <li><a href="https://secure.cabal.co.kr/security">보안센터</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="https://user.cabal.co.kr/join"><strong>회원가입</strong></a></li>
+                <li class="last">
+                	<a href="https://user.cabal.co.kr/login" class="login"><span class="blind">로그인</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$('.btn_layer').on('click', function(){
+    //$('div.left_menu').toggleClass('off');
+    if($('div.left_menu').attr('class').indexOf('off') > -1){
+        $('div.left_menu').removeClass('off');
+    }else{
+        $('div.left_menu').addClass('off');
+    }
+});
+$('.customer_close').on('click', function(){
+    //$('.rightLayer').toggleClass('hidden');
+    if($('.rightLayer').attr('class').indexOf('hidden') > -1){
+        $('.rightLayer').removeClass('hidden');
+    }else{
+        $('.rightLayer').addClass('hidden');
+    }
+});
+</script>
+<!-- //gnb -->
+<div class="container sub">
+	<!--임시 gnb-->
+    <div class="event_gnb sgnb">
+        <span class="ebg"></span>
+        <div class="content">
+            <ul class="link">
+                <li class="home"><a href="http://www.cabal.co.kr/main"><span>홈페이지</span></a><span class="bar"></span></li>
+                <li class="event"><a href="http://www.cabal.co.kr/event?categoryNo=0"><span>이벤트</span></a></li>
+            </ul>
+            <div class="menu_wrap">
+                <div class="flash_area">
+                    <object width="201" height="201" data="./images/logo.swf" type="application/x-shockwave-flash">
+                        <param name="allowScriptAccess" value="always">
+                        <param name="wmode" value="transparent">
+                        <param name="quality" value="high">
+                        <!--[if lte IE 8]>
+                        <param name="movie" value="./images/logo.swf" />
+                        <![endif]-->
+                        <span class="bi"></span>
+                    </object>
+                </div>
+                <a href="/intro" class="btn_intro"><span class="blind">GRAND CABAL FESTIVAL</span></a>
+                <div class="menu">
+                    <span class="hover"><span class="align"></span><span class="hbg"></span></span>
+                    <ul>
+                        <li class="ev1"><a href="/sub_1"><span class="le"><span class="blind">EVENT 01. 카발이 쏜다!</span></span></a></li>
+                        <li class="ev2"><a href="/sub_2"><span class="le"><span class="blind">EVENT 02. 초특급 서버 오픈</span></span></a></li>
+                        <li class="ev3"><a href="/sub_3" class="on"><span class="le"><span class="blind">EVENT 03. GRAND FESTIVAL</span></span></a></li>
+                        <li class="ev4"><a href="/sub_4"><span class="le"><span class="blind">EVENT 04. 응답하라, 카발리안</span></span></a></li>
+                        <li class="ev5"><a href="/sub_5"><span class="le"><span class="blind">EVENT 05. CLUB B.I</span></span></a></li>
+                        <li class="ev6"><a href="/sub_6"><span class="le"><span class="blind">EVENT 06. 페스티벌 플래티넘</span></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./history.html" class="btn_history" target="_blank"><span class="blind">10년의 발자취</span></a>
+        </div>
+    </div>
+    <!--//임시 gnb-->
+    <div class="section sub_3">		
+        <h1 class="logo"><a href="http://www.cabal.co.kr/main"><span class="blind">CABAL</span></a></h1>		
+        <div class="popup_wrap">
+            <div class="close">x</div>
+            <div class="popup_1_on blind">
+                <h3>골드 박스</h3>
+                <strong>아이템</strong>
+                <ul>
+                    <li>카리스마 팬의 케찹 후라이,(계정 귀속)</li>
+                    <li>카리스마 팬의 반숙 후라이,(계정 귀속)</li>
+                    <li>전사의 성수,(15분)</li>
+                    <li>현자의 성수,(15분)</li>
+                    <li>치명의 성수,(계정 귀속)</li>
+                    <li>베라드릭스의 가호,(계정 귀속)</li>
+                    <li>포스젬 패키지 x 3,(계정 귀속)</li>
+                    <li>에센스 룬 큐브,(계정 귀속)</li>
+                    <li>시ㅔ나의 팔찌 조각,(계정 귀속)</li>
+                    <li>프리데우스의 팔찌 조각,(계정 귀속)</li>
+                    <li>코어 인핸서,(중급)</li>
+                    <li>코어 인핸서,(상급)</li>
+                    <li>코어 인핸서,(최상급)</li>
+                    <li>바이크 파츠,(중급)</li>
+                    <li>바이크 파츠,(상급)</li>
+                    <li>바이크 파츠,(최상급)</li>
+                    <li>코어 슈페리어,(중급)</li>
+                    <li>코어 슈페리어,(상급)</li>
+                    <li>코어 슈페리어,(최상급)</li>
+                    <li>방어구 속성주문서(최상급)-크리티컬 확률</li>
+                </ul>
+                <strong>아이템</strong>
+                <ul>
+                    <li>방어구 속성주문서(최상급)-크리티컬 확률 상한</li>
+                    <li>방어구 속성주문서(최상급)-소드 스킬 증폭</li>
+                    <li>방어구 속성주문서(최상급)-매직 스킬 증폭</li>
+                    <li>무기 속성주문서(최상급)-크리티컬 확률</li>
+                    <li>무기 속성주문서(최상급)-소드 스킬 증폭</li>
+                    <li>무기 속성주문서(최상급)-매직 스킬 증폭</li>
+                    <li>바이크 속성주문서(최상급) - 크리티컬 확률</li>
+                    <li>바이크 속성주문서(최상급) - 크리티컬 확률 상한</li>
+                    <li>바이크 속성주문서(최상급) - 소드 스킬 증폭</li>
+                    <li>바이크 속성주문서(최상급) - 매직 스킬 증폭</li>
+                    <li>바이크 속성주문서(최상급) - 적중</li>
+                    <li>바이크 속성주문서(최상급) - 관통</li>
+                    <li>+10 혼돈의 탈리스만</li>
+                    <li>에센스 룬 - 적중</li>
+                    <li>수호의 아크리디움 에펄릿</li>
+                    <li>전사의 아크리디움 에펄릿</li>
+                    <li>현자의 아크리디움 에펄릿</li>
+                    <li>미네스타의 혼돈 전사 벨트 +15</li>
+                    <li>미네스타의 혼돈 현자 벨트 +15</li>
+                </ul>
+            </div>
+            <div class="popup_2_on blind">
+                <h3>실버 박스</h3>
+                <strong>아이템</strong>
+                <ul>
+                    <li>HP 포션(특대) x 50 (계정 귀속)</li>
+                    <li>공훈패 평가 지원 명령서 (계정 귀속)</li>
+                    <li>공훈패 평가 취소 명령서 (계정 귀속)</li>
+                    <li>치명의 성수(15분 )(계정 귀속)</li>
+                    <li>베라드릭스의 가호(계정 귀속)</li>
+                    <li>포스젬 패키지 x 1(계정 귀속)</li>
+                    <li>AP세이버(0/500) (계정귀속)</li>
+                    <li>에센스 룬 큐브 (캐릭터 귀속)</li>
+                    <li>시에나의 팔찌 조각 (캐릭터 귀속)</li>
+                    <li>프리데우스의 팔찌 조각 (캐릭터 귀속)</li>
+                    <li>익스트림 코어 Lv11</li>
+                    <li>익스트림 코어 Lv12</li>
+                    <li>슬롯 익스텐더(상급)</li>
+                    <li>코어 인핸서(중급)</li>
+                    <li>코어 인핸서(상급)</li>
+                    <li>바이크 파츠(중급)</li>
+                    <li>바이크 파츠(상급)</li>
+                    <li>코어 슈페리어(중급)</li>
+                </ul>
+                <strong>아이템</strong>
+                <ul>
+                    <li>코어 슈페리어(상급)</li>
+                    <li>바이크 속성주문서(중급) - 크리티컬 확률</li>
+                    <li>바이크 속성주문서(중급) - 크리티컬 확률 상한</li>
+                    <li>바이크 속성주문서(중급) - 소드 스킬 증폭</li>
+                    <li>바이크 속성주문서(중급) - 매직 스킬 증폭</li>
+                    <li>바이크 속성주문서(상급) - 크리티컬 확률</li>
+                    <li>바이크 속성주문서(상급) - 크리티컬 확률 상한</li>
+                    <li>바이크 속성주문서(상급) - 소드 스킬 증폭</li>
+                    <li>바이크 속성주문서(상급) - 매직 스킬 증폭</li>
+                    <li>방어구 속성주문서(상급)-크리티컬 확률</li>
+                    <li>방어구 속성주문서(상급)-크리티컬 확률 상한</li>
+                    <li>방어구 속성주문서(상급)-소드 스킬 증폭</li>
+                    <li>방어구 속성주문서(상급)-매직 스킬 증폭</li>
+                    <li>무기 속성주문서(상급)-크리티컬 확률</li>
+                    <li>무기 속성주문서(상급)-소드 스킬 증폭</li>
+                    <li>무기 속성주문서(상급)-매직 스킬 증폭</li>
+                    <li>미네스타의 혼돈 전사 벨트 +13</li>
+                    <li>미네스타의 혼돈 현자 벨트 +13</li>
+                </ul>
+            </div>
+            <div class="popup_3_on blind">
+                <h3>실버 박스</h3>
+                <strong>아이템</strong>
+                <ul>
+                    <li>블레싱 비드 - 경험치 증가 (200%) 10분 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - 경험치 증가 (200%) 1시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - 경험치 증가 (100%) 10분 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - 경험치 증가 (100%) 1시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - AXP 증가 (100%) 1시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - AXP 증가 (200%) 1시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - Wexp 증가 (100%) 2시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - Wexp 증가 (200%) 2시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - 박스 추가 드롭률 증가(100%) 1시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - 박스 추가 드롭률 증가(200%) 1시간 / 소유 3일(캐릭터 귀속)</li>
+                    <li>블레싱 비드 - 플러스 (7일)( 캐릭터 귀속)</li>
+                    <li>퓨리 포션 x 5(캐릭터 귀속)</li>
+                    <li>퓨리 포션(특대) x5(캐릭터 귀속)</li>
+                    <li>포스젬 패키지 x1(계정 귀속)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="popup_4_on">
+            <div class="close">x</div>	
+            <div class="blind">
+                <h3>GM 몬스터가 드롭하는 아이템</h3>
+                <strong>아이템</strong>
+                <ul>
+                    <li>업그래이드 코어 (상급)</li>
+                    <li>업그래이드 코어 (최상급)</li>
+                    <li>혼돈의 조각 (캐릭터 귀속)</li>
+                    <li>HP 포션(대) x 50</li>
+                    <li>공훈패 평가 지원 명령서</li>
+                    <li>공훈패 평가 취소 명령서</li>
+                    <li>전사의 성수(15분) 1개</li>
+                    <li>현자의 성수(15분) 1개</li>
+                    <li>베라드릭스의 가호 1개</li>
+                    <li>에센스 룬 큐브 </li>
+                    <li>시에나의 팔찌 조각</li>
+                    <li>프리데우스의 팔찌 조각</li>
+                    <li>익스트림 코어 Lv11</li>
+                    <li>익스트림 코어 Lv12</li>
+                    <li>슬롯 익스텐더(상급)</li>							
+                </ul>
+                <strong>아이템</strong>
+                <ul>
+                    <li>슬롯 익스텐더(최상급)</li>
+                    <li>코어 인핸서(상급) </li>
+                    <li>코어 인핸서(최상급) </li>
+                    <li>바이크 파츠(중급)</li>
+                    <li>바이크 파츠(상급)</li>
+                    <li>코어 슈페리어(상급)</li>
+                    <li>코어 슈페리어(최상급)</li>
+                    <li>방어구 속성주문서(상급) - 크리티컬 확률</li>
+                    <li>방어구 속성주문서(상급) - 크리티컬 확률 상한</li>
+                    <li>방어구 속성주문서(상급) - 소드스킬 증폭</li>
+                    <li>방어구 속성주문서(상급) - 매직스킬 증폭</li>
+                    <li>무기 속성주문서(상급) - 크리티컬 확률</li>
+                    <li>무기 속성주문서(상급) - 소드스킬 증폭</li>
+                    <li>무기 속성주문서(상급) - 매직스킬 증폭</li>
+                </ul>
+            </div>					
+        </div>
+        <div class="bg_hide"></div>
+        <div class="event3_1">
+            <h2 class="sub_tit"><span class="blind">GRAND CABAL FESTIVAL</span></h2>
+            <div class="blind">
+                <strong>카발 10주년 기념, 세번째 이벤트</strong>
+                <h3>GRAND FESTIVAL</h3>
+                <span>카발 온라인의 10주년을 기념하는 성대한 파티에 초대합니다.</span>
+                <span>2015.10.21-2015.12.02</span>
+            </div>
+        </div>
+        <div class="event3_2">
+            <div class="blind">
+                <h2>GRAND BINGO</h2>
+                <strong>카발 온라인 10주년 기념 빙고 이벤트!</strong>
+                <dl>
+                    <dt>STEP 01</dt>
+                    <dd>이벤트 NPC 율에게 대화를 걸고 빙고 이벤트를 선택</dd>
+                    <dt>STEP 02</dt>
+                    <dd>빙고판에 있는 미션을 확인 후 진행</dd>
+                    <dt>STEP 03</dt>
+                    <dd>완료된 미션을 클릭 하면 미션 완료가 되고 10주년 트로피를 지급</dd>
+                    <dt>STEP 04</dt>
+                    <dd>획득한 트로피를 율에게 박스로 교환(금 트로피x1=금 박스,실버 트로피x3=실버 박스,브론즈 트로피x5=브론즈 박스)</dd>
+                    <dt>STEP 05</dt>
+                    <dd>박스 사용시 구성품 중 1개의 아이템을 랜덤하게 생성</dd>
+                    <dt>STEP 06</dt>
+                    <dd>이벤트 오픈 후 매주 수요일 09시, 토요일 18시에 새로운 빙고판으로 갱신</dd>
+                    <dt>STEP 07</dt>
+                    <dd>플레이타임 미션의 경우 로그아웃 하셔야 시간이 갱신</dd>
+                </dl>
+                <ul>
+                    <li>금 박스 생성아이템</li>							
+                    <li>은 박스 생성아이템</li>
+                    <li>브론즈 박스 생성아이템</li>
+                </ul>
+            </div>
+            <div class="popup_btn">
+                <ul>
+                    <li class="popup_2">
+                        실버 박스 생성 아이템
+                    </li>
+                    <li class="popup_1">
+                        금 박스 생성 아이템
+                    </li>
+                    <li class="popup_3">
+                        브론즈 박스 생성 아이템
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="event3_3">
+            <div class="eveent3_img">
+            <img src="http://image.cabal.co.kr/Event/151021_10th/images/sub_3/special_edition.jpg" alt="스페셜 카발 에디션/카발 온라인 10주년 기념 특별 제작 스페셜 아이템 특별 한정 판매! SPECIAL EDITION"/>
+            <div class="tab_menu">
+                <ul>
+                    <li class="tab1" rel="bg_tab1">
+                        10주년 코스튬
+                    </li>
+                    <li class="tab2" rel="bg_tab2">
+                        10주년 펫
+                    </li>
+                    <li class="tab3" rel="bg_tab3">
+                        10주년 무기 코스튬
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="tab_wrap" id="bg_tab1">
+                <span class="blind">Woman/Man</span>
+            </div>
+            <div class="tab_wrap" id="bg_tab2">
+                <span class="blind">Lv.1/Lv.2</span>
+            </div>
+            <div class="tab_wrap" id="bg_tab3">
+                <span class="blind">블레이드/카타나/다이카타나/그레이트소드/차크람/크리스탈/오브/보우/스태프/실드</span>
+            </div>
+        </div>				
+        <div class="event3_4">
+            <div class="blind">
+                <h2>GM몬스터를 잡아라!</h2>
+                <strong>카발 온라인 10주년 기념 필드에 나타난 GM 몬스터를 때려주세요.</strong>
+                <span>펫 복장을 한 GM 몬스터가 네바레스 전체 필드에 나타 납니다. GM 몬스터를 잡으면 가끔 꼭꼭 숨겨둔 귀한 아이템을 떨어 뜨립니다.</span>
+                <address>Copyright ⓒ ESTsoft Corp. All Rights Reserved.</address>
+            </div>
+            <div class="popup_btn4">GM 몬스터가 드롭하는 아이템</div>
+            <a href="http://www.estsoft.co.kr/" class="estsoft" target="_blank">estsoft</a>
+        </div>
+        <a href="" class="btn_top"><span class="blind">맨위로</span></a>
+        <script>
+            $(function () {
+                $(".tab_wrap").hide();
+                $(".tab_wrap:first").show();
+                $(".tab_menu ul li").click(function () {
+                    $(".tab_wrap").hide();
+                var activeTab = $(this).attr("rel");
+                var activeOn = $(this).attr("class");
+                    $("#" + activeTab).fadeIn();
+                    $(".tab_menu").removeClass("tab1_on");
+                    $(".tab_menu").removeClass("tab2_on");
+                    $(".tab_menu").removeClass("tab3_on");
+                $(".tab_menu").addClass(activeOn + "_on");        			
+                });
+                $(".popup_btn ul li").click(function () {
+                    $(".popup_wrap,.bg_hide").show();
+                var popupOn = $(this).attr("class");
+                    $(".popup_wrap").removeClass("popup_1_on");
+                    $(".popup_wrap").removeClass("popup_2_on");
+                    $(".popup_wrap").removeClass("popup_3_on");
+                    $(".popup_wrap").addClass(popupOn + "_on");     
+                });
+                $(".popup_btn ul .popup_1").click(function () {     			
+                    $('html, body').animate({scrollTop: 1300}, 450);
+                    return false;
+                });
+                $(".popup_btn ul .popup_2").click(function () {     			
+                    $('html, body').animate({scrollTop: 1350}, 450);
+                    return false;
+                });
+                $(".popup_btn ul .popup_3").click(function () {     			
+                    $('html, body').animate({scrollTop: 1480}, 450);
+                    return false;
+                });
+                $(".event3_4 .popup_btn4").click(function () {     	
+                    $(".bg_hide,.popup_4_on").show();		
+                    $('html, body').animate({scrollTop: 4000}, 450);
+                    return false;
+                });
+                $(".close, .bg_hide").click(function () {     	
+                    $(".popup_wrap,.bg_hide,.popup_4_on").hide();
+                });
+            });	
+        </script>
+    </div>
+</div>
+</body>
+</html>
