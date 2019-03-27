@@ -4,8 +4,8 @@ subtitle: TeamUP
 layout: default
 modal-id: 4
 date: 2017-03-13
-img: 170313_1.png
-thumbnail: 170313_1.jpg
+img: 170313_1.jpg
+thumbnail: 170313_1.png
 alt: image-alt
 project-date: 2017-03-13
 site: <a href="https://tmup.com/">Go</a>

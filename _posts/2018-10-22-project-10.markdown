@@ -4,8 +4,8 @@ subtitle: 이스트시큐리티
 layout: default
 modal-id: 2
 date: 2018-10-22
-img: 181022.png
-thumbnail: 181022.jpg
+img: 181022.jpg
+thumbnail: 181022.png
 alt: image-alt
 project-date: 2018-10-22
 site: <a href="https://tmup.com/">Go</a>

@@ -4,8 +4,8 @@ subtitle: cabal
 layout: default
 modal-id: 14
 date: 2015-09-11
-img: 150911.png
-thumbnail: 150911.jpg
+img: 150911.jpg
+thumbnail: 150911.png
 alt: image-alt
 project-date: 2015-09-11
 site: <a href="https://tmup.com/" target="_blank">Go</a>
