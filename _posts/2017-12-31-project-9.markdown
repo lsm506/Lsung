@@ -3,11 +3,11 @@ title: Estsoft 홈페이지(모바일)
 subtitle: Estsoft
 layout: default
 modal-id: 3
-date: 2017-21-31
+date: 2017-12-31
 img: dreams.png
 thumbnail: 172131.png
 alt: image-alt
-project-date: 2017-21-31
+project-date: 2017-12-31
 site: <a href="https://tmup.com/">Go</a>
 category: homepage/renewal
 description: jquery/html/css
