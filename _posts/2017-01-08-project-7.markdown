@@ -4,8 +4,8 @@ subtitle: MindMaple
 layout: default
 modal-id: 9
 date: 2017-01-18
-img: 170118.jpg
-thumbnail: 170118.png
+img: 170108.jpg
+thumbnail: 170108.png
 alt: image-alt
 project-date: 2017-01-18
 site: <a href="http://www.mindmaple.com/" target="_blank">Go</a>
