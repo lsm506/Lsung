@@ -367,7 +367,7 @@ section h3.section-subheading {
     border:1px solid #ccc;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .portfolio-link:hover {
     border:none;
 }
 
