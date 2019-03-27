@@ -4,8 +4,8 @@ subtitle: 인터넷디스크
 layout: default
 modal-id: 1
 date: 2019-03-19
-img: dreams.png
-thumbnail: 190215.png
+img: 190215.png
+thumbnail: 190215.jpg
 alt: image-alt
 project-date: 2016
 site: <a href="https://tmup.com/">Go</a>

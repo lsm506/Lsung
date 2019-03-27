@@ -4,8 +4,8 @@ subtitle: 이스트시큐리티
 layout: default
 modal-id: 10
 date: 2016-12-31
-img: dreams.png
-thumbnail: 161231.png
+img: 161231.png
+thumbnail: 161231.jpg
 alt: image-alt
 project-date: 2016-12-31
 site: <a href="https://tmup.com/" target="_blank">Go</a>

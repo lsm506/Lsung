@@ -4,8 +4,8 @@ subtitle: Estsoft
 layout: default
 modal-id: 3
 date: 2017-12-31
-img: dreams.png
-thumbnail: 172131.png
+img: 172131.png
+thumbnail: 172131.jpg
 alt: image-alt
 project-date: 2017-12-31
 site: <a href="https://tmup.com/">Go</a>
