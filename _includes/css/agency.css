@@ -364,6 +364,11 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    border:1px solid #ccc;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    border:none;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -786,7 +791,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .portfolio-modal .modal-content p {
