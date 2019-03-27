@@ -1,0 +1,15 @@
+---
+title: TeamUP 클라우드페이지
+subtitle: TeamUP
+layout: default
+modal-id: 6
+date: 2017-03-13
+img: dreams.png
+thumbnail: 170313_3.png
+alt: image-alt
+project-date: 2017-03-13
+site: <a href="https://tmup.com/">Go</a>
+category: homepage
+description: jquery/html/css
+
+---

@@ -1,0 +1,15 @@
+---
+title: 인터넷디스크 사이트리뉴얼
+subtitle: 인터넷디스크
+layout: default
+modal-id: 1
+date: 2019-03-19
+img: dreams.png
+thumbnail: 190215.png
+alt: image-alt
+project-date: 2016
+site: <a href="https://tmup.com/">Go</a>
+category: homepage/renewal
+description: jquery/html/css
+
+---

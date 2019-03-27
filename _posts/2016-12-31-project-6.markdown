@@ -1,0 +1,15 @@
+---
+title: 이스트시큐리티 홈페이지 리뉴얼
+subtitle: 이스트시큐리티
+layout: default
+modal-id: 10
+date: 2016-12-31
+img: dreams.png
+thumbnail: 161231.png
+alt: image-alt
+project-date: 2016-12-31
+site: <a href="https://tmup.com/" target="_blank">Go</a>
+category: homepage/renewal
+description: jquery/html/css
+
+---

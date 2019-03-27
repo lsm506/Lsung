@@ -1,0 +1,15 @@
+---
+title: 이스트시큐리티 솔루션페이지
+subtitle: 이스트시큐리티
+layout: default
+modal-id: 2
+date: 2018-10-22
+img: dreams.png
+thumbnail: 181022.png
+alt: image-alt
+project-date: 2018-10-22
+site: <a href="https://tmup.com/">Go</a>
+category: homepage
+description: jquery/html/css
+
+---
