@@ -1,14 +1,14 @@
 ---
-title: 카발 10주년 이벤트페이지
+title: 카발 10주년 1
 subtitle: cabal
 layout: default
-modal-id: 13
+modal-id: 14
 date: 2015-10-21
 img: 151021_3.jpg
 thumbnail: 151021.png
 alt: image-alt
 project-date: 2015-10-21
-site: <a href="https://tmup.com/" target="_blank">Go</a>
+site: <a href="https://lsm506.github.io/Lsung/html//151021_10th/sub_2.html" target="_blank">Go</a>
 category: GAME
 description: jquery/html/css
 

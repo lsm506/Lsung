@@ -1,14 +1,14 @@
 ---
-title: 플레티넘 이벤트페이지
+title: 플레티넘
 subtitle: cabal
 layout: default
-modal-id: 17
+modal-id: 18
 date: 2015-08-21
 img: 150821.jpg
 thumbnail: 150821.png
 alt: image-alt
 project-date: 2015-08-21
-site: <a href="https://tmup.com/" target="_blank">Go</a>
+site: <a href="https://lsm506.github.io/Lsung/html/150821_event/event.html" target="_blank">Go</a>
 category: GAME
 description: jquery/html/css
 

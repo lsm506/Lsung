@@ -2,13 +2,13 @@
 title: 카발 10주년 사전예약페이지
 subtitle: cabal
 layout: default
-modal-id: 16
+modal-id: 17
 date: 2015-09-11
 img: 150911.jpg
 thumbnail: 150911.png
 alt: image-alt
 project-date: 2015-09-11
-site: <a href="https://tmup.com/" target="_blank">Go</a>
+site: <a href="https://lsm506.github.io/Lsung/html/150911_event/event.html" target="_blank">Go</a>
 category: GAME
 description: jquery/html/css
 

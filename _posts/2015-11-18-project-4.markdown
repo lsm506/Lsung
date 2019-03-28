@@ -1,14 +1,14 @@
 ---
-title: 초대장 이벤트 페이지
+title: 초대장
 subtitle: cabal2
 layout: default
-modal-id: 12
+modal-id: 13
 date: 2015-11-18
 img: 151118.jpg
 thumbnail: 151118.png
 alt: image-alt
 project-date: 2015-11-18
-site: <a href="https://tmup.com/" target="_blank">Go</a>
+site: <a href="https://lsm506.github.io/Lsung/html/151118_event/event.html" target="_blank">Go</a>
 category: GAME
 description: jquery/html/css
 

@@ -1,0 +1,15 @@
+---
+title: 세니아해의 첫번째 대륙
+subtitle: cabal
+layout: default
+modal-id: 11
+date: 2015-12-09
+img: 151209.jpg
+thumbnail: 151209.png
+alt: image-alt
+project-date: 2015-12-09
+site: <a href="https://lsm506.github.io/Lsung/html/151209/event.html/" target="_blank">Go</a>
+category: GAME
+description: jquery/html/css
+
+---
