@@ -8,7 +8,7 @@ img: 151209.jpg
 thumbnail: 151209.png
 alt: image-alt
 project-date: 2015-12-09
-site: <a href="https://lsm506.github.io/Lsung/html/151209/event.html/" target="_blank">Go</a>
+site: <a href="https://lsm506.github.io/Lsung/html/151209/event.html" target="_blank">Go</a>
 category: GAME
 description: jquery/html/css
 
