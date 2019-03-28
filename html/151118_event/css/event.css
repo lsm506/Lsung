@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+html,body,div,p,img,span,a,em,strong,pre,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,tbody,thead,tfoot,tr,th,td,form,fieldset,legend,caption,input,textarea,button,select,object,video,iframe{margin:0;padding:0}
+header,article,aside,details,figcaption,figure,footer,hgroup,menu,nav,section{display:block;margin:0;padding:0;vertical-align:baseline}
+body{width:100%;font-family:"돋움","dotum","굴림",Gulim,Helvetica,sans-serif;font-size:12px;color:#000;line-height:1}
+input,textarea,button,select{font-size:inherit;font-family:inherit}
+img,fieldset,button{border:0}
+table{border-collapse:collapse;border-spacing:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a,a:link{text-decoration:none;color:#000} 
+a:hover{text-decoration:none}
+:root a:active{background-color:transparent;text-decoration:none}
+a:visited {text-decoration:none}
+a,img{vertical-align:top}
+hr{display:none}
+legend,.blind{overflow:hidden;visibility:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+label{cursor:pointer}
+
+/*gnb*/
+#gnb{min-width:1040px !important}
+#gnb a:hover{text-decoration:underline}
+.layer.leftLayer li a, .layer.leftLayer li img{vertical-align:baseline}
+.gnb_container .right_menu li.last{padding-right:0}
+
+/*event*/
+.header ul{float:right;padding-top:28px;margin-right:-7px}
+.header ul li{float:left;color:#A7ACB6}
+.header ul li a{color:#A7ACB6;font-family:"돋움";font-size:12px;margin:0 5px}
+.header h2{padding-top:26px;float:left}
+.event_wrap{width:100%;min-width:1100px}
+.event1_wrap{background:url("../images/event1_bg.jpg") no-repeat 50% 0;height:900px}
+.event2_wrap{background:url("../images/event2_bg.jpg") no-repeat 50% 0;height:1162px}
+.event3_wrap{background:url("../images/event3_bg.jpg") no-repeat 50% 0;height:1454px}
+.event4_wrap{background:url("../images/event4_bg.jpg") no-repeat 50% 0;height:1529px}
+.event5_wrap{background:url("../images/event5_bg.jpg") no-repeat 50% 0;height:1472px}
+.event1{position:relative;height:900px;margin:0 auto;width:1100px}
+.event2{position:relative;background:url("../images/event2_bg2.jpg") no-repeat 50% 0;height:1162px;margin:0 auto;width:1100px}
+.event3{position:relative;background:url("../images/event3_bg2.jpg") no-repeat 50% 0;height:1454px;margin:0 auto;width:1100px}
+.event4{position:relative;background:url("../images/event4_bg2.jpg") no-repeat 50% 0;height:1529px;margin:0 auto;width:1100px}
+.event5{position:relative;background:url("../images/event5_bg2.jpg") no-repeat 50% 0;height:1472px;margin:0 auto;width:1100px}
+
+.side_menu{position:fixed;_position:absolute;right:27px;top:420px;z-index:20}
+.side_menu li a{display:block;width:21px;height:21px;background:url("../images/spr_navi.png") no-repeat;background-position:0 -21px}
+.side_menu li a:hover, .side_menu li a.on{background-position:0 0}
+.side_menu li{margin-bottom:23px;_margin-bottom:9px}
+
+.popupw{position:absolute;left:50%;margin-left:-550px;margin-top:300px;z-index:15}
+.popup_bg,.popup_bg2{position:absolute;background-color:#000000;opacity:0.4;filter: alpha(opacity=40);height:6517px;width:100%;min-width:1100px;z-index:10;top:30px;z-index:10}
+.popup_bg,.popup_bg2,.popup{display:none}
+*:first-child + html .popup_bg{display:none!important}
+*:first-child + html .popup_bg2{display:none!important}
+.close{cursor:pointer}
+.close_1{width:38px;height:38px;line-height:38px;position:absolute;right:0;top:92px;margin-right:110px}
+.close_2{width:16px;height:16px;line-height:16px;position:absolute;right:0;top:697px;margin-right:14px}
+.close_3{width:38px;height:38px;line-height:38px;position:absolute;right:0;top:90px;margin-right:110px}
+.close_4{width:38px;height:38px;line-height:38px;position:absolute;right:0;top:220px;margin-right:110px}
+.popup_bt1{position:absolute;right:0;width:115px;height:33px;top:722px;margin-right:176px;cursor:pointer}
+.popup_bt1_1{position:absolute;right:0;width:115px;height:33px;top:935px;margin-right:176px;cursor:pointer}
+.popup_bt2{position:absolute;right:0;width:115px;height:33px;top:1152px;margin-right:176px;cursor:pointer}
+.popup_bt3{position:absolute;left:0;width:115px;height:33px;top:485px;margin-left:364px;cursor:pointer}
+.popup_bt4{position:absolute;left:0;width:115px;height:33px;top:898px;margin-left:364px;cursor:pointer}
+.popup_bt5{position:absolute;right:0;width:115px;height:33px;top:1222px;margin-right:146px;cursor:pointer}
+.popup_bt6{position:absolute;right:0;width:400px;height:80px;top:770px;margin-right:351px;cursor:pointer}
+.popup_bt7{position:absolute;right:0;width:485px;height:80px;top:602px;margin-right:309px;cursor:pointer}
+.popup_bt8{position:absolute;right:0;width:485px;height:80px;top:1013px;margin-right:309px;cursor:pointer}
+.popup_1{background:url("../images/popup_1.png") no-repeat;width:1100px;height:953px;z-index:20}
+.popup_2{background:url("../images/popup_2.png") no-repeat;width:1100px;height:1103px;z-index:20}
+.popup_3{background:url("../images/popup_3.png") no-repeat;width:1100px;height:538px;z-index:20;margin-top:120px}
+.popup_4{background:url("../images/popup_4.png") no-repeat;width:1100px;height:2500px;z-index:20;top:3970px;left:50%;margin-left:-550px;position:absolute}
+.popup_5{background:url("../images/popup_5.png") no-repeat;width:720px;height:514px;margin-top:680px;z-index:20;margin-left:220px;background-position:-190px 0}
+.t_text{position:absolute;top:183px;left:-12px}
+
+.estsoft{position:absolute;width:36px;height:12px;bottom:40px;left:50%;margin-left:-43px}
+

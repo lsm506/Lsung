@@ -1,0 +1,469 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+	<head>
+		<title>CABAL</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="author" content="ESTsoft" />
+		<meta name="keywords" content="CABAL2, ESTsoft" />
+		<meta name="description" content="" />
+		<link rel="stylesheet" href="./css/event.css" />
+		<link rel="icon" href="http://image.cabal.co.kr/favicon/favicon.ico" type="image/x-icon">
+		<!--[if IE 6]>
+		<script src="http://image.cabal.co.kr/Event/120525_join/js/DD_belatedPNG.js"></script>
+		<script type="text/javascript">DD_belatedPNG.fix('h1 img, .pop');</script>
+		<![endif]-->
+		<script  src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-3815141-7', 'auto');
+			//ga('require', 'displayfeatures');
+			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body>
+		<div class="closew"></div>
+		<!--gnb-->
+		<div id="gnb">
+			<!--  =isDaumChanneling?"style='display:none'":""  -->
+			<div class="gnb_container">
+				<h1><a href="http://estsoft.co.kr/"><span class="blind">ESTsoft</span></a></h1>
+				<div class="left_menu off">
+					<a href="http://advert.estsoft.com/?event=201307171933600" class="title">카발 온라인</a>
+					<a href="#n" class="btn_layer"><span class="blind">접기</span></a>
+					<div class="layer leftLayer">
+						<ul>
+							<li>
+								<a href="http://advert.estsoft.com/?event=201307178142255" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_1_20121024.gif" alt="카발1"><span>카발 온라인</span></a>
+							</li>
+							<li>
+								<a href="http://advert.estsoft.com/?event=201211132585062" target="_blank"><img src="http://static.estgames.co.kr/gnb/images/img_cabal_2_obt.gif" alt="카발2"><span>카발2</span></a>
+							</li>
+						</ul>
+						<div class="layer_bottom">
+							<a  href="http://cabal.co.kr/Default.aspx?wbs=3.8" target="_blank" class="OpenWindow">더욱 강력해진 &quot;각성&quot; 업데이트</a>
+						</div>
+					</div>
+				</div>
+				<div class="right_menu">
+					<ul>
+						<li class="fir">
+							<a href="#" class="customer_close rightButton">고객센터</a>
+							<div class="layer hidden rightLayer">
+								<ul>
+
+									<li>
+										<a  href="http://cs.cabal.co.kr">계정도용신고</a>
+									</li>
+									<li>
+										<a  href="http://secure.cabal.co.kr/security">보안센터</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li>
+							<a  href="http://user.cabal.co.kr/join"><strong>회원가입</strong></a>
+						</li>
+						<li class="last">
+							<a  href="http://user.cabal.co.kr/login" class="login"><span class="blind">로그인</span></a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.btn_layer').on('click', function() {
+				/*
+				 $('div.left_menu').toggleClass('off');
+				 */
+				if ($('div.left_menu').attr('class').indexOf('off') > -1) {
+					$('div.left_menu').removeClass('off');
+				} else {
+					$('div.left_menu').addClass('off');
+				}
+			});
+			$('.customer_close').on('click', function() {
+				/*
+				 $('.rightLayer').toggleClass('hidden');
+				 */
+				if ($('.rightLayer').attr('class').indexOf('hidden') > -1) {
+					$('.rightLayer').removeClass('hidden');
+				} else {
+					$('.rightLayer').addClass('hidden');
+				}
+			});
+		</script>
+		<!--//gnb-->
+		<div class="test_popup">
+			<a href="#n" onclick="(function(){$('.popup_2,.popup_3,.popup_4,.popup_5,.popup_w,.closew').hide();$('.popup_1,.popup_w,.closew').fadeIn();})();return false;">sns&개인정보 동의</a>
+			<a href="#n" onclick="(function(){$('.popup_1,.popup_3,.popup_4,.popup_5,.popup_w,.closew').hide();$('.popup_2,.popup_w,.closew').fadeIn();})();return false;">사전예약 완료</a>
+			<a href="#n" onclick="(function(){$('.popup_2,.popup_1,.popup_4,.popup_5,.popup_w,.closew').hide();$('.popup_3,.popup_w,.closew').fadeIn();})();return false;">휴대전화/이메일 에러</a>
+			<a href="#n" onclick="(function(){$('.popup_2,.popup_3,.popup_1,.popup_5,.popup_w,.closew').hide();$('.popup_4,.popup_w,.closew').fadeIn();})();return false;">이름/휴대전화/이메일 입력</a>
+			<a href="#n" onclick="(function(){$('.popup_2,.popup_3,.popup_4,.popup_1,.popup_sns,.closew').hide();$('.popup_5,.popup_sns,.closew').fadeIn();})();return false;">sns 공유 이벤트 참여</a>
+		</div>
+		<div class="event_bg">
+			<div class="event_wrap wrap">
+				<ul class="side_menu i_menu">
+					<li>
+						<a href="#c_main" class="u_main on">main</a>
+					</li>
+					<li>
+						<a href="#cnt_1" class="nv_1">첫번째</a>
+					</li>
+					<li>
+						<a href="#cnt_2" class="nv_2">두번째</a>
+					</li>
+					<li>
+						<a href="#cnt_4" class="nv_3">세번째</a>
+					</li>
+				</ul>
+				<div id="c_main" class="c_main cnt">					
+					<div class="heder_menu">
+						<h2><a href="http://www.cabal.co.kr/main"><img src="./images/cabal.png" alt="카발"/></a></h2>
+						<p class="link">
+							<a href="http://cabal.co.kr/main">홈페이지</a>
+							<span>|</span>
+							<a href="http://cabal.co.kr/event?categoryNo=0">이벤트</a>
+						</p>
+					</div>	
+					<object type="application/x-shockwave-flash" data="./swf/bg_swf.swf" width="1920" height="900" style="margin-left:-411px;margin-top:-17px">
+					<param name="movie" value="./swf/bg_swf.swf" />
+					<param name='wmode' value='transparent' />
+					<param name='allowScriptAccess' value='always' />
+			</object>				
+					<div class="blind">
+						<h3>카발온라인 10주년 초특급신섭사전예약!</h3>
+						<p>
+							네바레스의 전사들이여 가장 찬란했던 순간을 맞이하라!
+						</p>
+						<p>
+							기간:2015.09.30~2015.10.20
+						</p>
+					</div>
+				</div>
+				<div id="cnt_1" class="cnt_1 cnt">
+					<div class="blind">
+						<h3>'가장 찬란했던 그 때 그 곳으로!'</h3>
+						<p>
+							카발온라인 신규 서버 사전예약
+						</p>
+						<p>
+							사전예약 완료하고 남들보다 한발 앞선 성장기회를 잡자!
+						</p>
+						<p>
+							신규서버사전예약 혜택!
+						</p>
+						<p>
+							명예의비약(10,000,000) 10,000,000명예점수 획득
+						</p>
+						<p>
+							AP 세이버(7,000) 7,000AP(서울어빌리티포이트)획득
+						</p>
+					</div>
+					<div class="popup_w">
+						<div class="popup_1">
+							<p class="blind">
+								sns수신을 포함한 개인정보 활용에 동의해주세요.
+							</p>
+							<a href="#n" class="ok_bt">확인</a>
+							<a href="#n" class="close">닫기</a>
+						</div>
+						<div class="popup_2">
+							<p class="blind">
+								사전 예약이 완료되었습니다.
+							</p>
+							<a href="http://cabal.co.kr/event/view/1711977" target="_blank" class="ok_bt">확인</a>
+							<a href="#n" class="close">닫기</a>
+						</div>
+						<div class="popup_3">
+							<p class="blind">
+								휴대전화 번호/이메일 주소를 정확하게 입력해주세요.
+							</p>
+							<a href="#n" class="ok_bt">확인</a>
+							<a href="#n" class="close">닫기</a>
+						</div>
+						<div class="popup_4">
+							<p class="blind">
+								이름/휴대전화 번호/이메일 주소를 입력해주세요.
+							</p>
+							<a href="#n" class="ok_bt">확인</a>
+							<a href="#n" class="close">닫기</a>
+						</div>
+					</div>
+
+					<div class="from_1">
+						<p class="from_text1">
+							<input type="text" id="m_name"/>
+							<label class="blind" for="m_name">이름</label>
+						</p>
+						<p class="from_text2">
+							<input type="text" id="e_mail"/>
+							<label class="blind" for="e_mail">이메일</label>
+						</p>
+						<p class="from_text3">
+							<input type="text" maxlength="3" id="pon"/>
+							<input type="text" maxlength="4"/>
+							<input type="text" maxlength="4"/>
+							<label class="blind" for="pon">연락처</label>
+						</p>
+						<span> 							
+						<div class="textarea">이스트소프트는 카발 온라인 관련 정보 안내, 이벤트 진행, 고객 상담을 위하여 '이름, 이메일 주소, 휴대폰 번호'를 수집 이용하며 이벤트 종료 시 또는 수신 거부 등록 시 파기 합니다. 개인 정보 제공 동의를 거부할 수 있으며 거부 시 이벤트 참여가 어렵습니다.</div> 
+						</span>
+						<span> 
+							<span class="check_off">
+								<input type="checkbox" id="check_1" />
+								<label for="check_1">동의함</label>
+							</span>
+						</span>
+					</div>
+					<a href="#n" class="cnt_1bt">사전 예약 하기</a>
+					<span class="mon mon_1"></span>
+				</div>
+				<div id="cnt_2" class="cnt_2 cnt">
+					<div class="blind">
+						<h3>'신규 서버에서 그 날의 영광을 재현하라!'</h3>
+						<h4>카발온라인 신규서버 이용혜택</h4>
+						<h5>신규 서버 이용 혜택 01. 신규서버에 캐릭터 생성시 블레싱 비드 지급!(14일)</h5>
+						<p>
+							경험치 200%! 초스피드 성장!
+						</p>
+						<p>
+							블레싱 비드 - 경험치 증가(200%) + 블레싱 비드 - 스킬 경험치 증가(200%)
+						</p>
+						<h5>신규 서버 이용 혜택 02. 장비 걱정으 잊어라! 레벨 업 3단계에 걸친 +15무기/바어구 풀세트 지급!</h5>
+						<p>
+							95LV 달성 > 130LV 달성 > 160LV 달성
+						</p>
+						<p>
+							+15오스미움 풀장비 세트(클래스별 선택,사용기간1년) > +15시그메탈풀장비 세트(클래스별 선택,사용기간1녀) > +15미스릴풀장비세트(클래스별선택,사용기간1년)
+						</p>
+						<h5>신규 서버 이용 혜택 03. 이벤트 기간동안 180레벨 이상 달성시 14증폭 방어구 세트 획득 찬스!</h5>
+						<p>
+							클래스 별 시그메탈 14증폭 방어구 세트 각각 10세트 총 70세트 추첨 지급
+						</p>
+						<p>
+							시그메탈 마샬세트(기간제한없음,계정 귀속) > 시그메탈 배틀세트(기간제한없음,계정 귀속) > 시그메탈 아머세트(기간제한없음,계정 귀속)
+						</p>
+					</div>
+					<span class="mon mon_2"></span>
+				</div>
+				<div id="cnt_3" class="cnt_3 cnt">
+					<span class="mon mon_3"></span>
+				</div>
+				<div id="cnt_4" class="cnt_4 cnt">
+					<div class="blind">
+						<h3>'네바레스 전사들이여, 추억의 포스를 모아라'</h3>
+						<h4>카발온라인 10주년 기념 신규 서버 사전 예약 댓글 이벤트</h4>
+						<h5>사전 예약 추가 혜택!댓글 남기고 푸짐한 아이템 선물 받아가세요!</h5>
+						<p>
+							포스젬 1,000개(1등)/포스젬 100개(100명,추첨)
+						</p>
+						<p>
+							새로 만나게 될 카발 온라인의 신규 서버에 대한 기대평 또는
+						</p>
+						<p>
+							잊을 수 없는 카발 온라인에서의 10년 추억,
+						</p>
+						<p>
+							다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요.
+						</p>
+						<p>
+							당신의 포스가 카발 온라인 신규 서버를 더욱 찬란하게 비출 것입니다.
+						</p>
+						<p>
+							댓글을 남겨주신 분들께 추첨을 통해 아이템 선물을 드립니다.
+						</p>
+						<p>
+							SNS로 카발온라인 신규서버 사전 예약 이벤트 소식을 공유하시면 당첨 확률이 높아 집니다!
+						</p>
+					</div>
+					<div class="popup_sns">
+						<div class="popup_5">
+							<p class="blind">
+								SNS공유 이벤트에 참여하시면 당첨 확률이 높아 집니다!
+							</p>
+							<a href="#n" class="ok_bt">확인</a>
+							<a href="#n" class="close">닫기</a>
+						</div>
+					</div>
+					<div class="form_2">
+						<input type="text" class="input_text_bg" maxlength="80">
+						<a href="#n">댓글 입력</a>
+					</div>
+					<div class="form2_tabl">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="td_jic"><img src="./images/j_ic.jpg" alt="직업아이콘"/></td>
+								<td class="td_name">신채아신채아아아</td>
+								<td class="td_text">카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요</td>
+								<td class="td_time">2015.09.06 21:19:31</td>
+							</tr>
+							<tr>
+								<td class="td_jic"><img src="./images/j_ic.jpg" alt="직업아이콘"/></td>
+								<td class="td_name">신채아</td>
+								<td class="td_text">카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요</td>
+								<td class="td_time">2015.09.06 21:19:31</td>
+							</tr>
+							<tr>
+								<td class="td_jic"><img src="./images/j_ic.jpg" alt="직업아이콘"/></td>
+								<td class="td_name">신채아</td>
+								<td class="td_text">카발 온라인에서의 10년의 추억,다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요</td>
+								<td class="td_time">2015.09.06 21:19:31</td>
+							</tr>
+							<tr>
+								<td class="td_jic"><img src="./images/j_ic.jpg" alt="직업아이콘"/></td>
+								<td class="td_name">신채아</td>
+								<td class="td_text">카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요</td>
+								<td class="td_time">2015.09.06 21:19:31</td>
+							</tr>
+							<tr>
+								<td class="td_jic"><img src="./images/j_ic.jpg" alt="직업아이콘"/></td>
+								<td class="td_name">신채아</td>
+								<td class="td_text">카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요카발 온라인에서의 10년의 추억, 다시 만나고 싶은 길드원에 대한 이야기를 댓글로 남겨주세요</td>
+								<td class="td_time">2015.09.06 21:19:31</td>
+							</tr>
+						</table>
+						<div class="page">
+							<span><a href="#n"><img src="./images/left.png"/></a></span>
+							<span><a href="#n" class="onpage">1</a></span>
+							<span><a href="#n">2</a></span>
+							<span><a href="#n">3</a></span>
+							<span><a href="#n">4</a></span>
+							<span><a href="#n">5</a></span>
+							<span><a href="#n"><img src="./images/right.png"/></a></span>
+						</div>
+						<div class="sns_bt">
+							<a href="#n" class="facebook">페이스북 공유하기</a>
+							<a href="#n" class="kakaotory">카카오스토리 공유하기</a>
+							<a href="#n" class="kakaotalk">카카오톡 공유하기</a>
+						</div>
+					</div>
+
+					<span class="mon mon_4"></span>
+					<div class="footer">
+						<h3 class="blind">사전예약 및 이벤트 참여 주의사항</h3>
+						<ul>
+							<li>
+								- 타인의 핸드폰 번호, 계정을 도용하는 등 부정한 방법으로 이벤트에 참여할 시 이벤트 당첨 취소는 물론 형사 처벌의 대상이 될 수 있습니다.
+							</li>
+							<li>
+								- 사전 예약 쿠폰은 LMS(장문문자메시지)로 발송되며, LMS(장문문자메시지) 수신이 불가능할 경우 사전 예약 쿠폰을 받으실 수 없습니다.
+							</li>
+							<li>
+								- 사전 예약 쿠폰은 신규 서버 오픈 후 1인 1회 지급되며, 1계정당 1회 사용 가능합니다.
+							</li>
+							<li>
+								- 사전 예약 쿠폰은 신규 서버에서만 사용 가능 합니다.
+							</li>
+							<li>
+								- 사전 예약 메시지가 신규 서버 오픈 후 1주일 내 정상적으로 도착하지 않을 시 이스트소프트 고객센터로 문의하시기 바랍니다.
+							</li>
+							<li>
+								- 개인 정보 수집 이용 동의 철회 및 기타 게임 문의를 원하시면 카발 온라인 <a href="#n">1:1 문의</a>를 이용해 주시기 바랍니다.
+							</li>
+							<li>
+								- 지급 받은 아이템은 환불이 불가능합니다.
+							</li>
+						</ul>
+						<address>
+							Copyright ⓒ <a href="www.estsoft.com">ESTsoft</a> Cop. All Rights Reserved.
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<script>
+			$(function() {
+				// 메뉴 스크롤 위치로 이동
+				$(".i_menu a").click(function(e) {
+					e.preventDefault();
+					var link = $(this).attr("href");
+					if ($(this).hasClass("u_main")) {
+						$("html,body").animate({
+							scrollTop : 0
+						}, "slow");
+					} else {
+						$("html,body").stop().animate({
+							scrollTop : $(link).offset().top - 30
+						}, "slow");
+					}
+				})
+			});
+			$('.close, .ok_bt, .closew').on('click', function() {
+					$(".popup_w, .popup_sns, .closew").css('display', 'none');
+				});
+				$(".check_off label").click(function() {
+					$(".check_off").toggleClass("check_on");
+				});
+				$(".form_2 input").click(function(){
+					$(this).removeClass("input_text_bg")
+				})
+			var width = $(window).width();
+			if (width < 1264) {
+				$(".wrap .mon").css("display","none");
+			}
+			var speed = 600;
+			var showMonster1 = function(el, val, opa) {
+				element = $(el);
+				element.stop().show().animate({
+					left : val,
+					opacity : opa
+				}, speed);
+			}
+			var showMonster2 = function(el, val, opa) {
+				element = $(el);
+				element.stop().show().animate({
+					right : val,
+					opacity : opa
+				}, speed);
+			}
+			
+			$(window).scroll(function() {
+				
+				var scrollTop = $(window).scrollTop() + 350;	
+				$(".intro_gnb .menu li a, .side_menu li a").removeClass("on");					
+				//showMonster1(".cnt_2 .mon", "-800", "0");
+				//showMonster2(".cnt_1 .mon, .cnt_3 .mon, .cnt_4 .mon", "-800", "0");			
+				if(scrollTop > 4165 && scrollTop < 6403) {
+					//showMonster2(".cnt_4 .mon", "-292", "1");
+					$(".nv_3").addClass("on");
+				}
+				/*if(scrollTop > 3473 && scrollTop < 4365) {
+					showMonster2(".cnt_3 .mon", "-318", "1");
+					$(".nv_2").addClass("on");
+				}
+					else $(".cnt_3 .mon").stop().animate({"right":"-800px"}, 600);
+				*/else if(scrollTop > 1921 && scrollTop < 4365) {
+					//showMonster1(".cnt_2 .mon", "-353", "1");
+					$(".nv_2").addClass("on");
+				}
+				else if(scrollTop > 738 && scrollTop < 2121) {
+					//showMonster2(".cnt_1 .mon", "-343", "1");
+					$(".nv_1").addClass("on");
+				}
+				else if(scrollTop > 0 && scrollTop < 937) {
+					$(".u_main").addClass("on");
+				}
+				else if(scrollTop > 0 && scrollTop < 1013) {
+					
+				}
+			});
+		</script>
+	</body>
+</html>

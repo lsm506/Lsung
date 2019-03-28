@@ -1,0 +1,193 @@
+@charset "utf-8";
+html,body,div,p,img,span,a,em,strong,pre,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,tbody,thead,tfoot,tr,th,td,form,fieldset,legend,cap
+tion,input,textarea,button,select,object,video,iframe{margin:0;padding:0}
+header,article,aside,details,figcaption,figure,footer,hgroup,menu,nav,section{display:block;margin:0;padding:0;vertical-align:baseline}
+html,body{width:100%;height:100%}
+body{font-family:"맑은 고딕","돋움","dotum","굴림",Gulim,Helvetica,sans-serif;font-size:12px;color:#a2a2a2;line-height:1}
+input,textarea,button,select{font-size:inherit;font-family:inherit}
+img,fieldset,button{border:0}
+table{border-collapse:collapse;border-spacing:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a,a:link{text-decoration:none;color:#333} 
+:root a:active{background-color:transparent}
+a,img{vertical-align:top}
+hr{display:none}
+legend,.blind{overflow:hidden;visibility:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+label{cursor:pointer}
+/* 상속 해결 */
+#gnb{font-size:12px}
+#gnb a{font-family:"돋움",dotum}
+.blind{position:absolute;font-size:0;visibility:hidden}
+.hidden{display:none}
+.gnb_container .customer_open{line-height:17px}
+.gnb_container .left_menu a.title{font-size:12px;line-height:1}
+.gnb_container .left_menu strong{font-size:12px;line-height:1}
+.gnb_container .left_menu .layer li{line-height:1}
+.gnb_container .right_menu .layer li{line-height:17px}
+
+#gnb{position:relative;z-index:1010;background:url("https://static.estgames.co.kr/gnb/images/bg_gnb.gif") repeat-x;height:30px;min-width:928px}
+#gnb.daum_bg{display:none;}
+body.daum_bg{background-position:50% 0}
+
+.gnb_container{position:relative;width:1124px;height:30px;margin:0 auto}
+.gnb_container h1 a{position:absolute;width:75px;height:29px;background:url("https://static.estgames.co.kr/gnb/images/h1.gif") no-repeat}
+.gnb_container .left_menu a.title{display:inline-block;color:#3C3F46;padding:9px 0 0 87px;font-weight:bold}
+.gnb_container .left_menu strong{display:inline-block;color:#3C3F46;padding:11px 0 0 87px}
+:root .gnb_container .left_menu strong{padding-top:11px \0/IE9}
+.gnb_container .left_menu .layer_open{position:absolute;top:4px;left:124px;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_open.gif") no-repeat;width:29px;height:24px}
+.gnb_container .left_menu .layer_close{position:absolute;top:4px;left:124px;z-index:160;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_close.gif") no-repeat;width:29px;height:27px}
+.gnb_container .off .btn_layer{position:absolute;top:4px;left:159px;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_open.gif") no-repeat;width:29px;height:24px}
+.gnb_container .btn_layer{position:absolute;top:4px;left:159px;z-index:160;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_close.gif") no-repeat;width:29px;height:27px}
+.gnb_container .off .layer{display:none}
+
+/* 오른쪽 메뉴 */
+.gnb_container .right_menu{position:absolute;top:5px;right:0}
+.gnb_container .right_menu li{position:relative;float:left;background:url("https://static.estgames.co.kr/gnb/images/blt_gnb_bar.gif") 0 5px no-repeat;z-index:10;letter-spacing:-1px;padding:4px 8px 0;line-height:1}
+.gnb_container .right_menu li.fir,.gnb_container .right_menu li.last{background:none !important}
+.gnb_container .right_menu li.last{padding-right:0;padding-top:0}
+.gnb_container .right_menu li a{display:inline-block;padding-top:1px;font-size:11px;color:#3C3F46;line-height:1;vertical-align:top}
+:root .gnb_container .right_menu li a{padding-top:2px \0/IE9}
+.gnb_container .right_menu li strong{line-height:1;vertical-align:top}
+.gnb_container .right_menu .customer_open{background:url("https://static.estgames.co.kr/gnb/images/btn_customer_open.gif") 100% 0 no-repeat;padding-right:17px}
+.gnb_container .right_menu .customer_close{background:url("https://static.estgames.co.kr/gnb/images/btn_customer_close.gif") 100% 0 no-repeat;padding-right:17px}
+:root .gnb_container .right_menu .customer_open{background-position:100% 0 !important; \0/IE9}
+:root .gnb_container .right_menu .customer_close{background-position:100% 0 !important; \0/IE9}
+.gnb_container .right_menu .login{display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_gnb_login.gif") no-repeat;width:52px;height:20px;margin-left:-7px}
+.gnb_container .right_menu .logout{display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_gnb_logout.gif") no-repeat;width:52px;height:20px;margin-left:-7px}
+.gnb_container .right_menu .layer{position:absolute;top:25px;right:5px;background:#fff;border:1px solid #686A74;width:84px;padding:5px 0}
+.gnb_container .right_menu .layer li{float:none;line-height:1;height:14px;margin-bottom:2px;background:none !important}
+.gnb_container .right_menu .layer li a{background:url("https://static.estgames.co.kr/gnb/images/blt_gnb_arrow.gif") 100% 4px no-repeat;padding-right:7px}
+
+/* 왼쪽 메뉴 */
+.gnb_container .left_menu .layer{position:absolute;z-index:150;top:30px;left:80px;background:#fff;border:1px solid #B7B9BF;border-top:1px solid #A5A7AC}
+.gnb_container .left_menu .layer ul{overflow:hidden;padding:10px 6px}
+.gnb_container .left_menu .layer li{float:left;width:101px;height:72px;text-align:center}
+.gnb_container .left_menu .layer li img{*display:block;*margin-bottom:3px;margin-right:1px}
+.gnb_container .left_menu .layer li a{display:inline-block;font-weight:bold;font-size:11px;color:#3C3F46;line-height:14px;letter-spacing:-1px}
+.gnb_container .left_menu .layer li a span{display:block;margin-top:4px}
+:root .gnb_container .left_menu .layer li a span{margin-top:5px \0/IE9}
+.gnb_container .left_menu .layer_bottom{clear:left;width:214px;border-top:1px solid #EAEAEA;background:#F4F4F4;text-align:center;font-size:11px;letter-spacing:-1px;padding:6px 0;_margin-top:9px}
+:root .gnb_container .left_menu .layer_bottom{padding-bottom:5px \0/IE9}
+.gnb_container .left_menu .layer_bottom a{display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_gnb_go.gif") 100% 0 no-repeat;color:#4D5056;padding-right:28px;padding-top:1px}
+:root .gnb_container .left_menu .layer_bottom a{padding-top:2px \0/IE9}
+
+/* gnb */
+#gnb{min-width:980px !important}
+#gnb .gnb_container{width:980px !important}
+.layer.leftLayer li a, .layer.leftLayer li img{vertical-align:baseline}
+.gnb_container .right_menu li.last{padding-right:0}
+
+/* event */
+.closew{position:absolute;height:6450px;width:100%;z-index:5;display:none}
+.event_bg{background:url("../images/event_bg.jpg") 50% 0 no-repeat;height:6450px;min-width:1100px;background-size: cover;overflow-y:hidden}
+.side_menu{position:fixed;color:#ffffff;z-index:5;right:60px;top:40%}
+.heder_menu{padding-top:17px;;position:relative}
+.heder_menu h2{position:absolute;margin-left:-6px}
+.heder_menu .link{position: absolute;right:0px;z-index:1;line-height:20px}
+.heder_menu .link a{color:#cbc6ca}
+.heder_menu .link span{font-size:13px}
+.event_wrap{min-width:1100px;width:1100px;margin:0 auto}
+#c_main{height:983px;position:relative;width:1100px}
+#cnt_1{height:1184px;position:relative;width:1100px;background:url("../images/bg_2.jpg") no-repeat}
+#cnt_2{height:1552px;position:relative;width:1100px;background:url("../images/bg_3.jpg") no-repeat}
+#cnt_3{height:692px;position:relative;width:1100px;background:url("../images/bg_4.jpg") no-repeat}
+#cnt_4{height:2038px;position:relative;width:1100px;background:url("../images/bg_5.jpg") no-repeat}
+.wrap{position:relative;width:100%;margin:0 auto;overflow-y:hidden}
+.wrap .mon{position:absolute;display:block}
+.mon_1{background:url("../images/ct_1.png") no-repeat;width:313px;height:778px;top:319px;right:-343px}
+.mon_2{background:url("../images/ct_2.png") no-repeat;width:374px;height:847px;top:453px;left:-353px}
+.mon_3{background:url("../images/ct_3.png") no-repeat;width:348px;height:692px;top:33px;right:-800px}
+.mon_4{background:url("../images/ct_4.png") no-repeat;width:332px;height:720px;top:354px;right:-318px}
+.cnt{margin:0 auto;}
+.from_1{position:absolute;top:605px;right:30px;width:380px}
+.from_1 p label{font-size:16px;font-family:'맑은 고딕','나눔 고딕','돋움';letter-spacing:-1px;width:40px;float:left;margin-top:9px}
+.from_1 p{margin-bottom:17px;padding-left: 60px}
+.from_1 .from_text1 input[type="text"]{line-height:32px;height:32px;width:115px;padding:0 5px;background:none;border:none}
+.from_1 .from_text2 input[type="text"]{line-height:31px;height:31px;width:290px;padding:0 5px;background:none;border:none}
+.from_1 .from_text3 input[type="text"]{line-height:30px;height:30px;width:80px;padding:0 5px;margin-right:12px;background:none;border:none}
+.from_1 .from_text3 select{line-height:31px;height:31px;width:90px;margin:0px 12px 0px 0px;background:none;border:none}
+.from_1 span .textarea{height:64px;width:344px;overflow:auto;margin-top:48px;border:none;background:none;resize:none;display:block;padding:6px 9px 9px;margin-left:-3px;font-size:12px;color:#232323;line-height:16px}
+.from_1 span input[type="checkbox"]{position:absolute;left:-9999px;visibility:hidden;width:0;height:0;font-size:0}
+.check_on{background:url("../images/check1_on.png") no-repeat!important;}
+.check_off{background:url("../images/check1_off.png") no-repeat;margin-top:18px;margin-right:47px;width:57px;height:20px;display:block}
+.check_off label{display:block;float:left;text-indent:-9999px}
+.check_off label{width:57px;height:20px}
+.form_2{position:absolute;top:989px}
+.form_2 input{border:none;background:none;width:792px;height:60px;line-height:60px;font-size:15px;font-family:'돋움','맑은 고딕';color:#3e3e3e;font-weight:bold;text-align:left;resize:none;overflow:hidden;padding:0px 13px}
+.input_text_bg{border:none;background:url("../images/input_text_bg.gif") no-repeat!important;;margin-left:13px;padding-left:0px!important;width:772px!important}
+.form_2 a{display:inline-block;width:268px;height:61px;margin-left:8px;text-indent:-99999px;line-height:61px}
+.form2_tabl{position:absolute;top:1080px;width:1100px}
+.form2_tabl table{border-top:1px solid #000000;border-bottom:1px solid #3f3430;border-collapse:inherit;width:1100px}
+.form2_tabl table td{text-overflow:ellipsis;table-layout:fixed;height:36px;border-top:1px solid #3f3430;border-bottom:1px solid #000000;font-family:'돋움','맑은 고딕';color:#979594;font-size:15px;text-align:left;letter-spacing:-1px;line-height:18px;padding:14px 15px 14px 0}
+.td_name{font-weight:bold;width:130px}
+.td_text{width:606px;height:36px;table-layout:fixed}
+.td_text div{overflow:hidden;table-layout:fixed;text-overflow:ellipsis;width:606px;height:17px}
+.td_jic{width:67px}
+.td_jic img{margin-left:33px}
+.td_time{text-align:center!important}
+.page{text-align:center;margin-top:27px}
+.page span{font-size:15px;line-height:21px;margin:0 10px}
+.page span a{color:#9a9a99}
+.page span a.onpage{color:#d9d9d9;font-weight:bold}
+.sns_bt a{text-indent:-99999px;height:86px;line-height:86px;display:inline-block;margin-right:22px}
+.sns_bt{margin-top:106px}
+.facebook{width:348px}
+.kakaotory{width:350px}
+.kakaotalk{width:348px;margin-right:0px!important}
+.footer{position:absolute;bottom:32px;width:1100px;color:#616267;font-family:"돋움","맑은 고딕"}
+.footer a{color:#616267}
+.footer ul{position:absolute;bottom:46px;left:8px}
+.footer ul li{line-height:22px;font-size:13px}
+.footer address,.footer address a{text-align:center;color:#8e8e8e}
+.qa{position:absolute;width:42px;height:12px;line-height:12px;text-indent:-9999px;}
+.estsoft{position:absolute;top:73px;left:64px;text-indent:-9999px;height:12px;width:48px;line-height:12px}
+.side_menu a{background:url("../images/nv_bg.png") no-repeat;width:21px;height:22px;margin-bottom:20px;text-indent:-9999px;display:block}
+.side_menu a.nv_1,.side_menu a.nv_2,.side_menu a.nv_3,.side_menu a.u_main{background-position:0 -41px}
+.side_menu a.u_main.on{background-position:0 0}
+.side_menu a.on.nv_1{background-position:0 -226px}
+.side_menu a.on.nv_2{background-position:0 -461px}
+.side_menu a.on.nv_3{background-position:0 -723px}
+.side_menu a.nv_1:hover{background-position:0 -226px}
+.side_menu a.nv_2:hover{background-position:0 -461px}
+.side_menu a.nv_3:hover{background-position:0 -723px}
+.side_menu a.u_main:hover{background-position:0 0}
+.popup_w img,.popup_sns img{display:none}
+.popup_w,.popup_sns{z-index:30}
+.popup_w a,.popup_sns a{line-height:44px}
+.popup_w{position:absolute;margin-top:550px;left:50%;margin-left:-271px;display:none}
+.popup_sns{position:absolute;margin-top:700px;left:50%;margin-left:-271px;display:none}
+.popup_w .popup_1{background:url("../images/popup_1.png") no-repeat;width:540px;height:283px;display:none}
+.popup_w .popup_2{background:url("../images/popup_2.png") no-repeat;width:540px;height:283px;display:none}
+.popup_w .popup_3{background:url("../images/popup_3.png") no-repeat;width:540px;height:283px;display:none}
+.popup_w .popup_4{background:url("../images/popup_4.png") no-repeat;width:540px;height:283px;display:none}
+.popup_sns .popup_5{background:url("../images/popup_5.png") no-repeat;width:540px;height:283px;display:none}
+.popup_w .popup_1 .ok_bt{position:absolute;width:153px;height:44px;display:block;top:173px;left:194px;text-indent:-9999px;z-index:35}
+.popup_w .popup_2 .ok_bt{position:absolute;width:216px;height:44px;display:block;top:188px;left:164px;text-indent:-9999px;z-index:35}
+.popup_w .popup_3 .ok_bt{position:absolute;width:153px;height:44px;display:block;top:161px;left:194px;text-indent:-9999px;z-index:35}
+.popup_w .popup_4 .ok_bt{position:absolute;width:153px;height:44px;display:block;top:168px;left:194px;text-indent:-9999px;z-index:35}
+.popup_w .popup_1 .close{position:absolute;width:28px;height:25px;display:block;top:37px;right:24px;text-indent:-9999px;z-index:35}
+.popup_w .popup_2 .close{position:absolute;width:28px;height:25px;display:block;top:37px;right:24px;text-indent:-9999px;z-index:35}
+.popup_w .popup_3 .close{position:absolute;width:28px;height:25px;display:block;top:34px;right:29px;text-indent:-9999px;z-index:35}
+.popup_w .popup_4 .close{position:absolute;width:28px;height:25px;display:block;top:34px;right:29px;text-indent:-9999px;z-index:35}
+.popup_sns .ok_bt{position:absolute;width:135px;height:44px;display:block;top:163px;left:204px;text-indent:-9999px;z-index:35}
+.popup_sns .close{position:absolute;width:28px;height:25px;display:block;top:34px;right:29px;text-indent:-9999px;z-index:35}
+.from_1 span a{margin-right:26px}
+.from_1 span a img{margin-top:18px}
+input{font-size:14px}
+input[type=text]::-ms-clear{display:none}
+.cnt_1bt{position:absolute;bottom:94px;left:331px;height:85px;width:440px;display:block;text-indent:-9999px}
+
+/* testpopup */
+.test_popup{position:fixed;background-color:#666666;right:0;z-index: 15} 
+.test_popup a{color:#cccccc;display:block;margin:5px;font-size:14px}
+
+
+/* ie7 */
+*:first-child+html .from_1 span .textarea{margin-top:42px}
+*:first-child+html .from_1 .from_text2 input[type="text"]{line-height:26px;}
+*:first-child+html .from_1 .from_text3 input[type="text"]{line-height:20px;}
+*:first-child+html .from_1 span input[type="checkbox"]{margin-right:80px;margin-top:17px}
+*:first-child+html .sns_bt a{float:left;display:block;margin-right:26px}
+*:first-child+html .sns_bt{margin-top:111px}
+*:first-child+html .closew{display:none!important}

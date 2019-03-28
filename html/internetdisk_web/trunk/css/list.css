@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+
+/*관리설정*/
+.management_nav{background-color:#272d35;padding:10px 0 5px 0}
+.management_nav .mCSB_container{padding:0 0 0 20px;margin-right:10px}
+.management_nav dl{position:relative;border-bottom:1px solid #383d44;margin-bottom:10px;padding-bottom:10px;width:100%;box-sizing:border-box}
+.management_nav dl:last-child{border-bottom:none}
+.management_nav dt{font-weight:bold;width:auto;height:28px}
+.management_nav dt a{color:#879bbb}
+.management_nav dt.icon_group{background-position:0 6px!important}
+.management_nav a{position:relative;display:inline-block;font-size:13px;color:#fff;text-decoration:none;line-height:28px;margin-bottom:1px;padding:0 24px;box-sizing:border-box;letter-spacing:-1px}
+.management_nav dd li{padding-left:17px}
+.management_nav dd li a{background:url("../img/icon_more.png") no-repeat 9px 10px}
+.management_nav dd a:hover{color:#bcd7ff}
+.management_nav dd a.action,.management_nav dd a.action:hover{color:#71aaff;font-weight:bold}

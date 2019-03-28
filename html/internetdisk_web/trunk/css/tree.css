@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+
+/*웹탐색기 tree*/
+.tree_box{background-color:#2a2f37;width:100%;overflow-x:auto;box-sizing:border-box;padding:10px 0}
+.tree_box ul{padding:0 5px}
+.tree_box ul li{position:relative;margin-left:10px}
+.tree_box ul li .icon_8{position:absolute;top:7px;left:0} 
+.tree_box ul li a{padding-left:43px;text-decoration:none;font-size:13px;color:#fff;height:27px;line-height:27px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background-position:20px 6px!important}
+.tree_box ul li a.icon_group{width:auto}
+.tree_box ul li a:hover{color:#bcd7ff}
+.tree_box ul li a.action{color:#71aaff;font-weight:bold}
+.tree_box ul li a:hover i{background-position:-20px -330px}
+.tree_box ul li a.action:hover i{background-position:-39px -328px}
+.tree_box ul li a:hover i.action{background-position:-39px -328px}
+

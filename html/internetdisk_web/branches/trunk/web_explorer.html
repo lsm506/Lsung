@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<title>Internetdisk</title>
+<link rel="stylesheet" href="./css/common.css"/>
+<link rel="stylesheet" href="./css/tree.css"/>
+<body>
+    <div class="wrap">
+        
+        <!--header_start-->
+        <div class="header">
+            <h1><a href="#n"><span class="blind">internetdisk</span></a></h1>
+            <div class="login_log"><i class="icon icon_1"><span class="blind">체크표시</span></i>마지막 로그인 : <span>2018-10-18 09:38:50 (10.111.137.10)</div>
+            <div class="user_inf">
+                <span><img src="./img/icon_user.png" alt="유저"/></span>
+                <div class="user_name select">
+                    <a href="#n">Soyeon87</a>
+                    <ul>
+                        <li><a href="#n">개인 정보 수정</a></li>
+                        <li><a href="#n">로그아웃</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--header_end-->
+
+        <div class="content">
+            <div class="left">
+                <!--nav_start-->
+                <div class="nav">
+                    <ul class="nav_list">
+                        <li class="action">
+                            <a href="./web_explorer.html">
+                               <i class="icon icon_2"><span class="blind">웹탐색기</span></i>
+                               <span>웹탐색기</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#n">
+                                <i class="icon icon_3"></i>
+                                <span>결재관리</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#n">
+                                <i class="icon icon_4"></i>
+                                <span>디스크관리</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./management.html">
+                                <i class="icon icon_5"></i>
+                                <span>관리</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#n">
+                                <i class="icon icon_6"></i>
+                                <span>로그</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--nav_end-->
+
+                <div class="usage_in inf_box">
+                    <div class="usage_in_box">
+                        
+                        <h2><i class="icon_group icon_group_3"></i>UX실</h2>
+
+                        <!--그래프 시작-->
+                        <div id = "cont">
+                            <svg viewPort="0 0 100 100" width="100" height="100" id="round_bg" xmlns="http://www.w3.org/2000/svg">
+                                <circle id="path" cx="50" cy="50" r="36" stroke="#010101" fill="none" stroke-width="7"></circle>
+                            </svg>
+                            <svg viewPort="0 0 100 100" width="100" height="100" id="round" xmlns="http://www.w3.org/2000/svg">
+                                <circle id="path" cx="50" cy="50" r="36" stroke="#4891ff" fill="none" stroke-width="7" class="cir"></circle>
+                            </svg>
+                            <strong>8.8GB</strong>
+                            <p>30GB</p>
+                        </div>
+                        <!--그래프 끝-->
+
+                        <div class="user_inf_box">
+                            <p>사용자 <span>16명</span></p>
+                            <p class="last">폴더<span>5</span>파일<span>49</span></p>
+                            <a href="#n">디스크정보<i class="icon icon_7"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="tree_box scroll">
+                        <ul>
+                            <li>
+                                <a href="#n" class="icon_group icon_group_1"><i class="icon icon_8 action"></i>SOYEON's</a>
+                                <ul>
+                                    <li>
+                                        <a href="#n" class="folder"><i class="icon icon_8 action"></i>SOYEON's</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#n" class="folder">SOYEON's</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#n" class="folder"><i class="icon icon_8"></i>SOYEON's</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#n" class="folder action"><i class="action icon icon_8"></i>SOYEON's</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#n" class="folder">jennyjennyjennyjennyjennyjennyjennyjenny's</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right web">
+                <div class="right_wrap web_explorer">
+                    <div class="content_nav">
+                        <div class="left_nav">
+                            <ul>
+                                <li class="upload"><a href="#n" class="btn">업로드</a></li>
+                                <li class="download"><a href="#n" class="btn">다운로드</a></li>
+                                <li class="select select_ch">
+                                    <span>작업</span>
+                                    <ul>
+                                        <li><a href="#n">새 폴더 만들기</a></li>
+                                        <li><a href="#n">복사</a></li>
+                                        <li><a href="#n">잘라내기</a></li>
+                                        <li><a href="#n">붙여넣기</a></li>
+                                        <li><a href="#n">이름바꾸기</a></li>
+                                        <li><a href="#n">삭제</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mail"><a href="#n" class="btn">메일로 반출</a></li>
+                                <li class="weblink"><a href="#n" class="btn">웹링크</a></li>
+                                <li class="guestfolder"><a href="#n" class="btn">게스트폴더</a></li>
+                                <li class="foldersettings"><a href="#n" class="btn">폴더별 권한설정</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="right_nav">
+                            <div class="search_box"><input type="text" placeholder="검색어를 입력하세요"/><i class="icon icon_29"></i></div>
+                            <ul class="nav_list">
+                                <li class="action"><a href="#n" class="icon icon_16"></a></li>
+                                <li><a href="#n" class="icon icon_17"></a></li>
+                                <li><a href="#n" class="icon icon_18"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="location">
+                        <ul>
+                            <li>
+                                <a href="#n">UX실</a>
+                            </li>
+                            <li>
+                                <a href="#n">주간업무보고</a>
+                            </li>
+                            <li>
+                                <a href="#n">주간업무보고</a>
+                            </li>
+                        </ul> 
+                        <div class="list_authority">
+                            <ul>
+                                <li><i class="icon icon_24 action"><span class="blind">폴더</span></i></li>
+                                <li><i class="icon icon_25 action"><span class="blind">업로드</span></i></li>
+                                <li><i class="icon icon_26 action"><span class="blind">다운로드</span></i></li>
+                                <li><i class="icon icon_27 action"><span class="blind">휴지통</span></i></li>
+                                <li><i class="icon icon_28 action"><span class="blind">체크</span></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="list_wrap">
+                        <div class="list_tit">
+                            <div class="list_checkbox">
+                                <input type="checkbox" id="chk_01"/><label for="chk_01"></label>
+                            </div>
+                            <div class="list_name sort action">
+                                <strong>이름</strong>
+                            </div>
+                            <div class="list_right">
+                                <div class="list_modified sort">
+                                    <strong>수정일</strong>
+                                </div>
+                                <div class="list_space sort">
+                                    <strong>크기</strong>
+                                </div>
+                                <div class="list_authority">
+                                    권한
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list_box_wrap">
+                            <div class="list_box">
+                                <div class="list_checkbox">
+                                    <input type="checkbox" id="chk_02"/><label for="chk_02"></label>
+                                </div>
+                                <div class="list_name">
+                                    <strong class="folder">인터넷디스크_리뉴얼_20181121.pptx</strong><i class="icon"></i>
+                                </div>
+                                <div class="list_right">
+                                    <div class="list_search">
+                                    </div>
+                                    <div class="list_filebtn">
+                                        <ul>
+                                            <li>
+                                                <a href="#n"><i class="icon icon_19 action"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#n"><i class="icon icon_20"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#n"><i class="icon icon_21"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list_delete">
+                                        <a href="#n" class="icon icon_22 action"></a>
+                                    </div>
+                                    <div class="list_modified">
+                                        <span>2018-10-05 10:45:45</span>
+                                    </div>
+                                    <div class="list_space">
+                                        <span>12555KB</span>
+                                    </div>
+                                    <div class="list_authority">
+                                        <ul>
+                                            <li><i class="icon icon_24 action"><span class="blind">폴더</span></i></li>
+                                            <li><i class="icon icon_25"><span class="blind">업로드</span></i></li>
+                                            <li><i class="icon icon_26"><span class="blind">다운로드</span></i></li>
+                                            <li><i class="icon icon_27"><span class="blind">휴지통</span></i></li>
+                                            <li><i class="icon icon_28"><span class="blind">체크</span></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_box">
+                                <div class="list_checkbox">
+                                    <input type="checkbox" id="chk_03"/><label for="chk_03"></label>
+                                </div>
+                                <div class="list_name">
+                                    <strong class="folder">주간업무보고_20181111</strong><i class="icon"></i>
+                                </div>
+                                <div class="list_right">
+                                    <div class="list_search">
+                                        <a class="icon icon_15"><span class="blind">검색</span></a>
+                                    </div>
+                                    <div class="list_filebtn">
+                                        <ul>
+                                            <li>
+                                                <a href="#n"><i class="icon icon_19 action"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#n"><i class="icon icon_20"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#n"><i class="icon icon_21"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list_delete">
+                                        <a href="#n" class="icon icon_22 action"></a>
+                                    </div>     
+                                    <div class="list_modified">
+                                        <span>2018-10-05 10:45:45</span>
+                                    </div>                               
+                                    <div class="list_space">
+                                        <span>12555KB</span>
+                                    </div>
+                                    <div class="list_authority">
+                                        <ul>
+                                            <li><i class="icon icon_24 action"><span class="blind">폴더</span></i></li>
+                                            <li><i class="icon icon_25"><span class="blind">업로드</span></i></li>
+                                            <li><i class="icon icon_26"><span class="blind">다운로드</span></i></li>
+                                            <li><i class="icon icon_27"><span class="blind">휴지통</span></i></li>
+                                            <li><i class="icon icon_28"><span class="blind">체크</span></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>문의처 : 02-3470-2980 / biztec@estsoft.com</p>
+            <a href="#n">환경설정</a>
+        </div>
+
+    </div>
+<script src="./js/jquery-2.1.3.min.js"></script>
+<script src="./js/jquery.mCustomScrollbar.min.js"></script>
+<script src="./js/splitter.js"></script>
+<script src="./js/common.js"></script>
+</body>
+</html>

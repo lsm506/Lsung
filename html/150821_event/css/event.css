@@ -1,0 +1,120 @@
+@charset "utf-8";
+html,body,div,p,img,span,a,em,strong,pre,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,tbody,thead,tfoot,tr,th,td,form,fieldset,legend,cap
+tion,input,textarea,button,select,object,video,iframe{margin:0;padding:0}
+header,article,aside,details,figcaption,figure,footer,hgroup,menu,nav,section{display:block;margin:0;padding:0;vertical-align:baseline}
+html,body{width:100%;height:100%}
+body{font-family:"맑은 고딕","돋움","dotum","굴림",Gulim,Helvetica,sans-serif;font-size:12px;color:#a2a2a2;line-height:1}
+input,textarea,button,select{font-size:inherit;font-family:inherit}
+img,fieldset,button{border:0}
+table{border-collapse:collapse;border-spacing:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a,a:link{text-decoration:none;color:#333} 
+:root a:active{background-color:transparent}
+a,img{vertical-align:top}
+hr{display:none}
+legend,.blind{overflow:hidden;visibility:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+label{cursor:pointer}
+/* 상속 해결 */
+#gnb{font-size:12px}
+#gnb a{font-family:"돋움",dotum}
+.blind{position:absolute;font-size:0;visibility:hidden}
+.hidden{display:none}
+.gnb_container .customer_open{line-height:17px}
+.gnb_container .left_menu a.title{font-size:12px;line-height:1}
+.gnb_container .left_menu strong{font-size:12px;line-height:1}
+.gnb_container .left_menu .layer li{line-height:1}
+.gnb_container .right_menu .layer li{line-height:17px}
+
+#gnb{position:relative;z-index:1010;background:url("https://static.estgames.co.kr/gnb/images/bg_gnb.gif") repeat-x;height:30px;min-width:928px}
+#gnb.daum_bg{display:none;}
+body.daum_bg{background-position:50% 0}
+
+.gnb_container{position:relative;width:1124px;height:30px;margin:0 auto}
+.gnb_container h1 a{position:absolute;width:75px;height:29px;background:url("https://static.estgames.co.kr/gnb/images/h1.gif") no-repeat}
+.gnb_container .left_menu a.title{display:inline-block;color:#3C3F46;padding:9px 0 0 87px;font-weight:bold}
+.gnb_container .left_menu strong{display:inline-block;color:#3C3F46;padding:11px 0 0 87px}
+:root .gnb_container .left_menu strong{padding-top:11px \0/IE9}
+.gnb_container .left_menu .layer_open{position:absolute;top:4px;left:124px;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_open.gif") no-repeat;width:29px;height:24px}
+.gnb_container .left_menu .layer_close{position:absolute;top:4px;left:124px;z-index:160;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_close.gif") no-repeat;width:29px;height:27px}
+.gnb_container .off .btn_layer{position:absolute;top:4px;left:159px;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_open.gif") no-repeat;width:29px;height:24px}
+.gnb_container .btn_layer{position:absolute;top:4px;left:159px;z-index:160;display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_layer_close.gif") no-repeat;width:29px;height:27px}
+.gnb_container .off .layer{display:none}
+
+/* 오른쪽 메뉴 */
+.gnb_container .right_menu{position:absolute;top:5px;right:0}
+.gnb_container .right_menu li{position:relative;float:left;background:url("https://static.estgames.co.kr/gnb/images/blt_gnb_bar.gif") 0 5px no-repeat;z-index:10;letter-spacing:-1px;padding:4px 8px 0;line-height:1}
+.gnb_container .right_menu li.fir,.gnb_container .right_menu li.last{background:none !important}
+.gnb_container .right_menu li.last{padding-right:0;padding-top:0}
+.gnb_container .right_menu li a{display:inline-block;padding-top:1px;font-size:11px;color:#3C3F46;line-height:1;vertical-align:top}
+:root .gnb_container .right_menu li a{padding-top:2px \0/IE9}
+.gnb_container .right_menu li strong{line-height:1;vertical-align:top}
+.gnb_container .right_menu .customer_open{background:url("https://static.estgames.co.kr/gnb/images/btn_customer_open.gif") 100% 0 no-repeat;padding-right:17px}
+.gnb_container .right_menu .customer_close{background:url("https://static.estgames.co.kr/gnb/images/btn_customer_close.gif") 100% 0 no-repeat;padding-right:17px}
+:root .gnb_container .right_menu .customer_open{background-position:100% 0 !important; \0/IE9}
+:root .gnb_container .right_menu .customer_close{background-position:100% 0 !important; \0/IE9}
+.gnb_container .right_menu .login{display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_gnb_login.gif") no-repeat;width:52px;height:20px;margin-left:-7px}
+.gnb_container .right_menu .logout{display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_gnb_logout.gif") no-repeat;width:52px;height:20px;margin-left:-7px}
+.gnb_container .right_menu .layer{position:absolute;top:25px;right:5px;background:#fff;border:1px solid #686A74;width:84px;padding:5px 0}
+.gnb_container .right_menu .layer li{float:none;line-height:1;height:14px;margin-bottom:2px;background:none !important}
+.gnb_container .right_menu .layer li a{background:url("https://static.estgames.co.kr/gnb/images/blt_gnb_arrow.gif") 100% 4px no-repeat;padding-right:7px}
+
+/* 왼쪽 메뉴 */
+.gnb_container .left_menu .layer{position:absolute;z-index:150;top:30px;left:80px;background:#fff;border:1px solid #B7B9BF;border-top:1px solid #A5A7AC}
+.gnb_container .left_menu .layer ul{overflow:hidden;padding:10px 6px}
+.gnb_container .left_menu .layer li{float:left;width:101px;height:72px;text-align:center}
+.gnb_container .left_menu .layer li img{*display:block;*margin-bottom:3px;margin-right:1px}
+.gnb_container .left_menu .layer li a{display:inline-block;font-weight:bold;font-size:11px;color:#3C3F46;line-height:14px;letter-spacing:-1px}
+.gnb_container .left_menu .layer li a span{display:block;margin-top:4px}
+:root .gnb_container .left_menu .layer li a span{margin-top:5px \0/IE9}
+.gnb_container .left_menu .layer_bottom{clear:left;width:214px;border-top:1px solid #EAEAEA;background:#F4F4F4;text-align:center;font-size:11px;letter-spacing:-1px;padding:6px 0;_margin-top:9px}
+:root .gnb_container .left_menu .layer_bottom{padding-bottom:5px \0/IE9}
+.gnb_container .left_menu .layer_bottom a{display:inline-block;background:url("https://static.estgames.co.kr/gnb/images/btn_gnb_go.gif") 100% 0 no-repeat;color:#4D5056;padding-right:28px;padding-top:1px}
+:root .gnb_container .left_menu .layer_bottom a{padding-top:2px \0/IE9}
+
+/* gnb */
+#gnb{min-width:980px !important}
+#gnb .gnb_container{width:980px !important}
+.layer.leftLayer li a, .layer.leftLayer li img{vertical-align:baseline}
+.gnb_container .right_menu li.last{padding-right:0}
+
+/*common*/
+.container{position:relative;top:0;left:0;border-top:1px solid #d5d5d5;height:100%;width:100%;min-width:1142px/*overflow:hidden*/}
+.intro{height:991px;background:url("../images/bg_intro.jpg") 50% 0 no-repeat}
+.container_t,.container_c,.container_f,.footer{position:relative;width:1142px;margin:0 auto}
+.bg_01{height:941px;background:url("../images/bg_01.jpg") 50% 0 no-repeat}
+.bg_02{height:935px;background:url("../images/bg_02.jpg") 50% 0 no-repeat}
+.bg_03{background-color:#271635;width:100%}
+.container_t{height:991px}
+.container_t .link{position:absolute;right:29px;top:48px;z-index:1}
+.container_t h1{position:absolute;left:28px;top:36px;z-index:1}
+.container_c{height:941px}
+.container_f{height:936px;width:1142px}
+.container_tbl{position:absolute;top:502px;width:922px;left:74px;border:2px solid #50307F;border-top:none;padding:15px 32px 15px 35px}
+.list_bt{position:absolute;width:184px;height:42px;top:537px;left:481px}
+.event_bt{position:absolute;width:491px;height:110px;bottom:76px;left:326px}
+.intro_left{position:absolute;left:0;top:202px;background:url("../images/intro_left.jpg") no-repeat;width:365px;height:98px}
+.intro_right{position:absolute;right:1px;top:254px;background:url("../images/intro_right.jpg") no-repeat;width:309px;height:98px}
+.intro_center{position:absolute;top:586px;left:174px;background:url("../images/intro_center.jpg") no-repeat;width:795px;height:405px}
+.container_tbl table{width:100%}
+.container_tbl td{font-size:18px}
+.tbl_last td{border-bottom:none}
+.tbl_01{color:#925fe0;border-bottom:1px solid #583590;border-right:1px solid #583590;padding:13px 14px;width:173px}
+.tbl_02{color:#ffffff;border-bottom:1px solid #583590;padding:13px 54px 10px 54px}
+.nb{position:absolute;color:#ffffff;font-size:20px;top:288px;right:82px}
+.nb_01{position:absolute;right:863px;width:100px;text-align:right}
+.nb_02{position:absolute;right:723px;width:100px;text-align:right}
+.nb_03{position:absolute;width:100px;right:371px;text-align:right}
+.nb_04{position:absolute;right:19px;width:200px;text-align:right}
+.nb_05{position:absolute;right:19px;top:62px;width:200px;text-align:right}
+.footer{background:url("../images/footer_bg.gif") no-repeat;width:1142px;height:212px}
+.faq{position:absolute;left:167px;top:43px}
+.est{position:absolute;left:153px;top:178px;width:42px;text-indent:-9999px;}
+.page_bt{position:absolute;bottom:68px;width:1142px;text-align:center}
+.page_bt span{color:#ffffff;vertical-align:middle;font-size:18px;padding:0 11px}
+.page_bt span.on{color:#aa76ff;margin-top:1.5px}
+.page_bt span,.page_bt a{vertical-align:middle!important;line-height:40px;font-family:"Verdana"!important;display:inline-block}
+.page_bt img{vertical-align:middle;margin:0 11px}
+.popup{position:absolute;display:none;background:url("../images/popup_bg.png") no-repeat;width:100%;height:3120px;top:0;z-index:165}
+.popup .popimg{position:absolute;left:50%;margin-left:-571px;top:990px}
+.popup a{position:absolute;top:1720px;left:50%;width:90px;height:38px;margin-left:-418px}
