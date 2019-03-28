@@ -1,14 +1,14 @@
 ---
-title: 찬란한 유산
-subtitle: cabal2
+title: 세니아해의 첫번째 대륙
+subtitle: cabal
 layout: default
 modal-id: 12
-date: 2015-12-15
-img: 151215.jpg
-thumbnail: 151215.png
+date: 2015-12-09
+img: 151209.jpg
+thumbnail: 151209.png
 alt: image-alt
-project-date: 2015-12-15
-site: <a href="https://lsm506.github.io/Lsung/html/151215_update/intro.html/" target="_blank">Go</a>
+project-date: 2015-12-09
+site: <a href="https://lsm506.github.io/Lsung/html/151209/event.html/" target="_blank">Go</a>
 category: GAME
 description: jquery/html/css
 
