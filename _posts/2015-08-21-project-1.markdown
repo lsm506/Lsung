@@ -2,7 +2,7 @@
 title: 플레티넘
 subtitle: cabal
 layout: default
-modal-id: 18
+modal-id: 15
 date: 2015-08-21
 img: 150821.jpg
 thumbnail: 150821.png
