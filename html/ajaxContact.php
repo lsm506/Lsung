@@ -7,9 +7,9 @@
 <body>
     <h1>성공적으로 전송이 완료 되었습니다.</h1>
     <ul class="ajax-box">
-        <li>이름 : <? echo $_post[irum];?></li>
-        <li>이메일 : <? echo $_post[email];?></li>
-        <li>메시지 : <? echo $_post[message];?></li>
+        <li>이름 : <? echo $_POST[irum];?></li>
+        <li>이메일 : <? echo $_POST[email];?></li>
+        <li>메시지 : <? echo $_POST[message];?></li>
     </ul>
 </body>
 </html>
