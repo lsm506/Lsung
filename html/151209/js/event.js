@@ -98,7 +98,7 @@ function wheel(event){
                 scrollChk = true;
             });
             return false;
-        }else if(delta > 0 && sct<=h[0]){
+        }else if(delta > 0 && sct<=h[1]){
 			//올림	
 			scrollChk = false;		
             event.preventDefault ? event.preventDefault() : event.returnValue = false;
