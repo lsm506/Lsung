@@ -10,6 +10,6 @@ alt: image-alt
 project-date: 2017-03-13
 site: <a href="https://tmup.com/team" target="_blank">Go</a>
 category: homepage
-description: jquery/html/css
+description: javaScript/jquery/html/thml5/css/css3
 
 ---
