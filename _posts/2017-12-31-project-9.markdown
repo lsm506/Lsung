@@ -10,6 +10,6 @@ alt: image-alt
 project-date: 2017-12-31
 site: <a href="https://m.estsoft.com/" target="_blank">Go</a>
 category: homepage/renewal
-description: jquery/html/css
+description: javaScript/jquery/html/thml5/css/css3
 
 ---
