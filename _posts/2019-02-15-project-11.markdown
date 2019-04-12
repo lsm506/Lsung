@@ -7,7 +7,7 @@ date: 2019-03-19
 img: 190215.jpg
 thumbnail: 190215.png
 alt: image-alt
-project-date: 2016
+project-date: 2019-03-19
 site: <a href="https://lsm506.github.io/Lsung/html/internetdisk_web/trunk/1_web_explorer.html" target="_blank">Go</a>
 category: homepage/renewal
 description: jquery/html/css
