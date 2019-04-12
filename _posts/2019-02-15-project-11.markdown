@@ -10,6 +10,6 @@ alt: image-alt
 project-date: 2019-03-19
 site: <a href="https://lsm506.github.io/Lsung/html/internetdisk_web/trunk/1_web_explorer.html" target="_blank">Go</a>
 category: homepage/renewal
-description: jquery/html/css
+description: javaScript/jquery/html/thml5/css/css3
 
 ---
