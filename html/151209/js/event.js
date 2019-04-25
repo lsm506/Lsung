@@ -90,7 +90,7 @@ function wheel(event){
 	}
 	if(scrollChk){
 		var movePosition;
-		if(delta < 0 && sct<h[0]){
+		if(delta < 0 && sct<h[1]){
 			//내림
             event.preventDefault ? event.preventDefault() : event.returnValue = false;
             scrollChk = false;

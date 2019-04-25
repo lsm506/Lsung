@@ -3,13 +3,13 @@ title: 인터넷디스크 사이트리뉴얼
 subtitle: 인터넷디스크
 layout: default
 modal-id: 1
-date: 2019-03-19
+date: 2019-02-15
 img: 190215.jpg
 thumbnail: 190215.png
 alt: image-alt
-project-date: 2016
+project-date: 2019-02-15
 site: <a href="https://lsm506.github.io/Lsung/html/internetdisk_web/trunk/1_web_explorer.html" target="_blank">Go</a>
 category: homepage/renewal
-description: jquery/html/css
+description: javaScript/jquery/html/thml5/css/css3
 
 ---

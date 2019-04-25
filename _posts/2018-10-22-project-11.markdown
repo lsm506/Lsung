@@ -10,6 +10,5 @@ alt: image-alt
 project-date: 2018-10-22
 site: <a href="https://www.estsecurity.com/solution" target="_blank">Go</a>
 category: homepage
-description: jquery/html/css
-
+description: javaScript/jquery/html/thml5/css/css3
 ---
