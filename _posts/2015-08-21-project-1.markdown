@@ -10,6 +10,6 @@ alt: image-alt
 project-date: 2015-08-21
 site: <a href="https://lsm506.github.io/Lsung/html/150821_event/event.html" target="_blank">Go</a>
 category: GAME
-description: javaScript/jquery/html/thml5/css/css3
+description: HTML/HTML5/JavaScript/Jquery
 
 ---
