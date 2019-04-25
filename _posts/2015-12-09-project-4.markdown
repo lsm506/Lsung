@@ -2,7 +2,7 @@
 title: 세니아해의 첫번째 대륙
 subtitle: cabal
 layout: default
-modal-id: 12
+modal-id: 13
 date: 2015-12-09
 img: 151209.jpg
 thumbnail: 151209.png

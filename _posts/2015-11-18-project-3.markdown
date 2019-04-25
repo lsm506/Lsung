@@ -2,7 +2,7 @@
 title: 초대장
 subtitle: cabal2
 layout: default
-modal-id: 13
+modal-id: 14
 date: 2015-11-18
 img: 151118.jpg
 thumbnail: 151118.png

@@ -2,7 +2,7 @@
 title: 카발 10주년 사전예약페이지
 subtitle: cabal
 layout: default
-modal-id: 14
+modal-id: 15
 date: 2015-09-11
 img: 150911.jpg
 thumbnail: 150911.png

@@ -2,7 +2,7 @@
 title: 찬란한 유산
 subtitle: cabal2
 layout: default
-modal-id: 11
+modal-id: 12
 date: 2015-12-15
 img: 151215.jpg
 thumbnail: 151215.png
